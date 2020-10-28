@@ -1,6 +1,43 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-<h1 class="display-4 text-success">It works!</h1>
+
+    <div class="container w-100">
+        <div class="row w-100">
+            <div class="col-12 my-auto">
+                <h4 class="logo-font text-black display-center">
+                    Always wanted to travel around the world but never got the time?
+                </h4>
+            </div>
+            <div class="row">
+                <div class="col-6 my-auto">
+                    <h5 class="text-black display-center">
+                        We have snacks from around the world
+                    </h5>
+                </div>
+                <div class="col-6 my-auto pr-4">
+                    <h5 class="text-black display-center">
+                        Want to try a different country next month?
+                </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 my-auto">
+                    <h4 class="logo-fonttext-black display-center">
+                        The time is now, to travel around the world by taste. Try snacks from around the world!
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
 {% endblock %}
