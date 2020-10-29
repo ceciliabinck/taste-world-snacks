@@ -1,0 +1,77 @@
+
+/* index page */
+#intro {
+    background: url(/static/media/main_img_1.jpg) no-repeat center center;
+    height: 300px;
+}
+
+.intro-text {
+    padding: 0;
+    padding-top: 105px;
+}
+
+
+.container-intro {
+    padding-top: 60px;
+}
+
+/* Base page */
+
+hr.divider {
+    border-top: 15px solid #ffa368;
+  
+}
+
+body {
+    background-size: cover;
+    margin-top: 164px;
+    color: #555;
+    font-family: 'lato';
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 10px;
+    border-top: 5px solid #ffa368;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
