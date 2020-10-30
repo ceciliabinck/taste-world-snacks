@@ -1,5 +1,9 @@
-:home: 
 
-I have had no ideas for this project and after a while I had a couple of idea to play around with. Those ideas where:
-1. Make a webstore selling products from Nepal, to suppport friend
-2. Make 
+## Bugs
+
+### Bug header/Navbar
+![Bug header/Navbar](https://raw.githubusercontent.com/ceciliabinck/taste-world-snacks/master/static/media/bug-header-navbar.jpg)
+
+Issue: While scroling through the page, the content would show around the navbar.
+
+Solution: Turned out that the padding and margin left open spaces in the Navbar. So when I removed them no content was shown behing the
