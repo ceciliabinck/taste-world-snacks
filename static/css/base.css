@@ -7,7 +7,7 @@
 
 .intro-text {
     padding: 0;
-    padding-top: 105px;
+    padding-top: 55px;
 }
 
 
@@ -18,7 +18,7 @@
 /* Base page */
 
 hr.divider {
-    border-top: 15px solid #ffa368;
+    border: 15px solid #ffa368;
   
 }
 
@@ -74,4 +74,15 @@ hr {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+@media (max-width: 768px) {
+    h4{
+        font-size: 15px;
+    }
+
+    #intro {
+        background: url(/static/media/main_img.jpg) no-repeat center center;
+        height: auto;
+    }
 }
