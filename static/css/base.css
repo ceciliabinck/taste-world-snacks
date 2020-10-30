@@ -82,6 +82,17 @@ hr {
     padding-top: 90px;
 }
 
+/* Footer */
+
+footer {
+    background: #ffa368;
+    /* padding-left: 40px; */
+}
+
+footer.col-sm-12 {
+    padding-left: 40px;
+}
+
 @media (max-width: 768px) {
     h4{
         font-size: 20px;
