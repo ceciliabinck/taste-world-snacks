@@ -7,7 +7,7 @@
 
 .intro-text {
     padding: 0;
-    padding-top: 55px;
+    padding-top: 85px;
 }
 
 
@@ -76,8 +76,17 @@ hr {
     border: 1px solid black !important;
 }
 
+/* inside */
+
+.inside-middle{
+    padding-top: 90px;
+}
+
 @media (max-width: 768px) {
     h4{
+        font-size: 20px;
+    }
+    html {
         font-size: 15px;
     }
 
@@ -85,4 +94,13 @@ hr {
         background: url(/static/media/main_img.jpg) no-repeat center center;
         height: auto;
     }
+
+    .inside-middle{
+        padding-top: 0px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    
 }

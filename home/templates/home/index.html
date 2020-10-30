@@ -10,27 +10,31 @@
 {% endblock %}
 
 {% block content %}    
-    <div class="container-intro mb-5" id="intro">
+    <div class="container-intro">
         <div class="row">
-            <div class="col-12 text-center mb-4">
+            <div class="col-12 text-center">
                 <h4 class="logo-font text-black text-center">
                     Always wanted to travel around the world but never got the time?
                 </h4>
             </div>
         </div>
+    </div>
+    <div class="container" id="intro">
         <div class="row">
-            <div class="col-sm-3 col-md-2 intro-text left offset-1">
-                <h4 class="text-black text-center">
+            <div class="col-sm-6 col-md-2 intro-text left offset-1">
+                <h4 class="text-black text-center right">
                     We have snacks from around the world
                 </h4>
             </div>
             <div class="col-md-6 sm-block sm-none"></div>
-            <div class="col-sm-3 col-md-2 intro-text right">
+            <div class="col-sm-6 col-md-2 intro-text right">
                 <h4 class="text-black text-center">
                     You want to try a new country next month?
                 </h4>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <h4 class="logo-font text-black text-center my-5">
@@ -80,30 +84,28 @@
         <div class="row">
             <div class="text-center mb-4 text-black col-12">
                 <h2>
-                    How it works
+                    What's inside
                 </h2>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-lg-4 text-center text-black">
-                <h4>
+                <h4 class="my-4">
                     Snacks
                 </h4>
-                <p></p>
-                <h4 class="mt-3">A booklet</h4>
-                <p></p>
+                <p>In our original box you can expect to find 8-10+ full size snacks (not the mini bites!), and in our premium box you get 16-20+ snacks.</p> <!-- https://snacksurprise.com/ -->
+                <h4 class="my-4">A booklet</h4>
+                <p>A 12+ page booklet guides your adventure with trivia, recipes, and other surprises!</p> <!-- https://www.universalyums.com/ -->
             </div>
             <div class="col-sm-12 col-lg-4 text-center text-black">
                  <img src="{% static 'media/step-3.jpg' %}" alt="Step-3">
             </div>
-            <div class="col-sm-12 col-lg-4 text-center text-black">
-                <h4>Great new flavours</h4>
-                <p></p>
+            <div class="col-sm-12 col-lg-4 text-center text-black inside-middle">
+                <h4 class="my-4">Great new flavours</h4>
+                <p>Each box is filled with a variety of delicious goodies you’re sure to love.</p> <!-- https://trymysnacks.com/#whats-inside -->
             </div>
         </div>
-    </div>
-    <hr class="my-4">
-
+    
 
 
 {% endblock %}
