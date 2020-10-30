@@ -17,9 +17,13 @@
 
 /* Base page */
 
+.fixed-top {
+    padding: 0;
+}
+
 hr.divider {
     border: 15px solid #ffa368;
-  
+    margin: 0;
 }
 
 body {
