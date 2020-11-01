@@ -45,16 +45,16 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item">
-                        <a href="{% url 'home' %}#works" class="text-black">How it works</a>
+                        <a href="{% url 'works' %}" class="text-black">How it works</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="{% url 'home' %}#inside" class="text-black">What's inside</a>
+                        <a href="" class="text-black">What's inside</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="{% url 'home' %}#box" class="text-black">Get a Box</a>
+                        <a href="" class="text-black">Get a Box</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="{% url 'home' %}#give" class="text-black">Give a box</a>
+                        <a href="" class="text-black">Give a box</a>
                     </li>
                 </ul>
             </div>
@@ -115,6 +115,40 @@
 
     {% block content %}
     {% endblock %}
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-12 col-md-2 mt-4 offset-1">
+                <h5>Shop</h5>
+                <p>
+                    <a href="">Get a box</a><br>
+                    <a href="">Give a box</a><br>
+                    <a href="">Our shop</a>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-2 mt-4 offset-1">
+                <h5>Explore</h5>
+                <p>
+                    <a href="">How it works</a><br>
+                    <a href="">What's inside</a><br>
+                    <a href="">Countries</a>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-2 mt-4 offset-1">
+                <h5>Support</h5>
+                <p>
+                    <a href="">Contact Us</a><br>
+                    <a href="">FAQ</a>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-2 mt-4 offset-1">
+                <h5>Company</h5>
+                <p>
+                    <a href="">About Us</a>
+                </p>
+            </div>            
+        </div>
+    </footer>
 
     {% block postloadjs %}
     {% endblock %}
