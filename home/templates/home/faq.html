@@ -1,0 +1,560 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}    
+<div class="container" id="accordionExample">
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+        <div class="col-12 mb-5">
+        <h4>The basics</h4>
+            <div class="accordion" id="basics">
+                <div class="card">
+                    <div class="card-header" id="basicOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#basic1" aria-expanded="true" aria-controls="basic1">
+                            What is Taste world snacks?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="basic1" class="collapse show" aria-labelledby="basicOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Tast world snacks is a subscription service for those who love trying snacks from around the world. Each month we deliver a box of snacks to your door from a different country. You can choose to pick your own box every month or choose to get surprised every month.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic2" aria-expanded="false" aria-controls="basic2">
+                            How can I join Taste world snacks?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic2" class="collapse" aria-labelledby="basicTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            It’s pretty simple, just just go to get a box on our site, then select what kind box you want. Lastly what kind of payment plan suits you and provide all the necessary details. We will then take over the process of feeding you the best tasting snacks from around the world.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic3" aria-expanded="false" aria-controls="basic3">
+                            What kind of snacks do I receive in my box?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="besic3" class="collapse" aria-labelledby="basicThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You can expect to receive snacks from sweets to crisps to biscuits to chocolates and lot more. We include all types of snacks and only pack the best and most delicious snacks from around the world! You can get an idea of the snacks we send by checking out our country page or our shop.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic4" aria-expanded="false" aria-controls="basic4">
+                            How many snacks do I receive?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic4" class="collapse" aria-labelledby="basicFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Currently we do two type of boxes, the Normal Taste world snacks box and the Jumbo Tast world snacks box. The Normal box contains 8-10+ full size snacks, whilst the Jumbo box contains 16-20+ full size snacks.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic5" aria-expanded="false" aria-controls="basic5">
+                            How long are your subscription plans?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic5" class="collapse" aria-labelledby="basicFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We offer a monthly, half a year and yearly subscription plan. Unlike gift plans, normal subscriptions will automatically renew until you cancel them. You can cancel your plan at any time from your account settings, or you can <a href="">contact us</a>.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic6" aria-expanded="false" aria-controls="basic6">
+                            Can I choose what snacks I receive?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic6" class="collapse" aria-labelledby="basicSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Unfortunately not. Althought it is possible to choose the country of your box if you want or you can choose to be surprised with a monthly box of snacks from a mystery country. Don’t worry we pick a variety of different and best tasting snacks, so you wouldn’t be disappointed!. Although, if you would like a particular kind of snack, please contact us, we would love your input!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic7" aria-expanded="false" aria-controls="basic7">
+                            Are the snacks in my box chosen from a different country every month?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic7" class="collapse" aria-labelledby="basicSeven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Not totally. As it is possible to choose your country of choice, we do have a basic box set. Although we keep in mind developments on trend snacks and special holiday. So the snacks in a certained country box can differ
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicEight">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic8" aria-expanded="false" aria-controls="basic8">
+                            I just placed an order. How do I know what snacks are in my box?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic8" class="collapse" aria-labelledby="basicEight" data-parent="#accordionExample">
+                        <div class="card-body">
+                            The snacks you will get in your box will remain a mystery until you receive the box. But don’t worry, your box will include an information card that provides the names of all the snacks inside of your box – including nutritional/allergic/vegetarian information.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicNine">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic9" aria-expanded="false" aria-controls="basic9">
+                            I have a food allergy. I Tast World Snacks for me?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic9" class="collapse" aria-labelledby="basicNine" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Absolutely! We include a nutritional breakdown of every item in our boxes along with a list of ingredients. It will also be useful if you warned us of your allergies by either contacting us or during checkout in the “additional information field”, this is so we can take special care with your order!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicTen">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic10" aria-expanded="false" aria-controls="basic10">
+                            Is Taste World Snacks suitable for vegetarians?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic10" class="collapse" aria-labelledby="basicTem" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We try not to use any snacks that are made of meat products and contain gelatine to make our products suitable for vegetarians! However, we can NOT guarantee that all products will be suitable for vegetarians, but we do include a nutritional breakdown of every item in our boxes along with a list of ingredients and a V sign next to the products that are suitable for vegetarians.<br><br>
+                            It will also be useful if you warned us of being a vegetarian by either contacting us or during checkout in the “additional information field”, this is so we can take special consideration with your order!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="basicEleven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#basic11" aria-expanded="false" aria-controls="basic11">
+                            Do you donate to charity?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="basic11" class="collapse" aria-labelledby="basicEleven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We provide our box assemblers with approximately 20% of our proceeds with every box or product from our shop that you buy! You’re not only enjoying the best tasting snacks from around the world but you’re also contributing towards helping the less fortunate. 
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-5">
+        <h4>Order and refunds</h4>
+            <div class="accordion" id="order">
+                <div class="card">
+                    <div class="card-header" id="orderOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order1" aria-expanded="true" aria-controls="order1">
+                            Do I need an account to place an order?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order1" class="collapse show" aria-labelledby="orderOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes you will need an account when subscribing. This is important as it will allow you to manage your personal information, track your orders, cancel your subscription etc. To order in our shop you do not need an account.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order2" aria-expanded="true" aria-controls="order2">
+                            How do I track my order ?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order2" class="collapse show" aria-labelledby="orderTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You can track your order every month using the tracking number we email you. If you have any problems or didn’t receive your tracking number, please <a href="">contact us</a>.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order3" aria-expanded="true" aria-controls="order3">
+                            How can I cancel my subscription?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order3" class="collapse show" aria-labelledby="orderThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You can <a href="">contact us</a> or you can cancel your subscription by yourself. To do it yourself follow the instructions below.
+                            <br><br>
+                            1. Navigate to the My <a href="">Account</a> page.
+                            2. Scroll down to the “My Subscriptions” table.
+                            3. Press the “view” button next to your subscription you want to modify. You will then be directed to a page where you can, cancel or suspend an active subscription, change your subscription plan, change the payment method used for automatic recurring payments, etc.
+                            4. Select the appropriate action and you’re done.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order4" aria-expanded="true" aria-controls="order4">
+                            Can I pause my subscription?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order4" class="collapse show" aria-labelledby="orderFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes you can pause your subscription by either <a href="">contacting us</a> or doing it by yourself. To do it yourself follow the instructions below.
+                            <br><br>
+                            1. Navigate to the My <a href="">Account</a> page.
+                            2. Scroll down to the “My Subscriptions” table.
+                            3. Press the “view” button next to your subscription you want to modify. You will then be directed to a page where you can, cancel or suspend an active subscription, change your subscription plan, change the payment method used for automatic recurring payments, etc.
+                            4. Select the appropriate action and you’re done.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order5" aria-expanded="true" aria-controls="order5">
+                            How do I change my Subscription?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order5" class="collapse show" aria-labelledby="orderFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            If you would like to change your subscription plan, i.e. from monthly to quarterly, then you can do it by <a href="">contacting us</a> or by yourself. To do it yourself follow the instructions below.
+                            <br><br>
+                            1. Navigate to the My <a href="">Account</a> page.
+                            2. Scroll down to the “My Subscriptions” table.
+                            3. Press the “view” button next to your subscription you want to modify. You will then be directed to a page where you can, cancel or suspend an active subscription, change your subscription plan, change the payment method used for automatic recurring payments, etc.
+                            4. Select the appropriate action and you’re done.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order6" aria-expanded="true" aria-controls="order6">
+                            How soon are my orders processed?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order6" class="collapse show" aria-labelledby="orderSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Your orders are processed within 24 hours of us receiving them. If there is any issues with processing your orders we will immediately contact you. <strong>Please note, this is not reflected in your order status, i.e., your order will remain as processing until it has been dispatched.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order7" aria-expanded="true" aria-controls="order7">
+                            Do I get refunded if I cancel my subscription early?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order7" class="collapse show" aria-labelledby="orderSeven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            If you would no longer like to receive your Taste world Snacks box and your subscription is currently active, you are solely responsible for cancelling your subscription before it renews. In the event that your subscription renews and you request a refund for the processing renewal, the following fee(s) will be deducted from the total refunded amount based on your current billing schedule:
+                            <br><br>
+                            Every 6 Months – $12.00
+                            Every 12 Months – $18.00
+                            <br><br>
+                            Please note, if you would like to request this you must do it within 14 days of your subscription renewing!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderEight">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order8" aria-expanded="true" aria-controls="order8">
+                            What is your policy on refunds/exchange?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order8" class="collapse show" aria-labelledby="ordereight" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Snacks are not returnable after purchase. If for some reason you are not satisfied with your box, please contact us and we will gladly read your feedback as we are always trying to improve the experience.
+                            <br><br>
+                            Please note ALL SALES ARE FINAL and refunds are only issued at our discretion in rare cases.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderNine">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order9" aria-expanded="true" aria-controls="order9">
+                            How do I give a gift?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order9" class="collapse show" aria-labelledby="orderNine" data-parent="#accordionExample">
+                        <div class="card-body">
+                            To give a gift simply click the <a href="">“Give a Gift”</a> button. Then, follow the prompts and complete the checkout. It’s important to use the shipping address fields for the giftee’s details.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderTen">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order10" aria-expanded="true" aria-controls="order10">
+                            What if my box is lost or stolen?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order10" class="collapse show" aria-labelledby="orderTen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            If you have not received your box, please be sure to check your tracking number. If your tracking number says it has been delivered, we suggest first checking with your neighbour, or someone who might have a similar address to you, in case it might have been delivered there by mistake. If you still cannot locate your box, you will need to file a claim with the delivery service. In such cases it’s important to contact us too, so we can assist you.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderEleven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order11" aria-expanded="true" aria-controls="order11">
+                            What if my box is damanged?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order11" class="collapse show" aria-labelledby="orderEleven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            If your box is damaged when it arrives or you suspect your snacks are missing, you can <a href="contact us"></a> with pictures, and we will help look into the issue for you.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderTwelve">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order12" aria-expanded="true" aria-controls="order12">
+                            What if I don't like the snacks I receive?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order12" class="collapse show" aria-labelledby="orderTwelve" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We try to ship the best tasting snacks every month to you. Sometimes you might not like them due to different cultures having different taste buds, but don’t worry we get new snacks in all the time, which means there’s snacks for everyone.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderThirteen">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order13" aria-expanded="true" aria-controls="order13">
+                            Do you accept returns?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order13" class="collapse show" aria-labelledby="orderThirteen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            No! All sales are final and we don’t accept returns as the snacks our perishable. If you have any problems with the box you have received, you can <a href="">contact us</a> and we will try to help you.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="orderFourteen">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#order14" aria-expanded="true" aria-controls="order14">
+                            Who should I contact if I have any queries?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="order14" class="collapse show" aria-labelledby="orderFourteen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You can <a href="">contact us</a> directly, we love hearing from you.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-5">
+        <h4>Shipping information</h4>
+            <div class="accordion" id="shipping">
+                <div class="card">
+                    <div class="card-header" id="shippingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#shipping1" aria-expanded="true" aria-controls="shipping1">
+                            Where do you currently ship to?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="shipping1" class="collapse show" aria-labelledby="shippingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Currently we ship internationally to the following countries: United Kingdom, Ireland, Netherlands, Canada, France, Italy & the United States of America – additional shipping charges will apply for these addresses. International shipping cost can be calculated at checkout.<br> <br>
+                            If you do not see your country here, please <a href="">contact us</a> to see if we can make an exception.
+                        </div>
+                    </div>
+                    <div class="card-header" id="shippingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#Shipping2" aria-expanded="true" aria-controls="Shipping2">
+                            When will my Taste Word Snacks box be shipped?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="Shipping2" class="collapse show" aria-labelledby="ShippingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Your first box will be shipped to you soon after you sign up (usually within 5-7 business days). For existing customers your account will renew on the 4th day of the month (this is when payments are taken out) and your box will be shipped out on the 17th of every month. <br><br>
+                            You can always check the status of your order (and see when it will ship) in your account settings.
+                        </div>
+                    </div>
+                    <div class="card-header" id="shippingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#shipping3" aria-expanded="true" aria-controls="shipping3">
+                            How long does my Taste World Snacks box  take to get here after it's shipped?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="shipping3" class="collapse show" aria-labelledby="shippingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            International delivery dates can vary, but we try to get them to you as fast as possible!
+                            <br><br>
+                            You can track your delivery using your order number. For more information please <a href="">contact us</a>.
+                        </div>
+                    </div>
+                    <div class="card-header" id="shippingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#shipping4" aria-expanded="true" aria-controls="shipping4">
+                            How do I change my shipping address?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="shipping4" class="collapse show" aria-labelledby="shippingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            To change your shipping address it’s pretty simple. 
+                            <br><br>
+                            1. First login to your <a href="">account</a>.
+                            2. Click on “Addresses tab” on the left hand side of the screen.
+                            3. Then “edit” button next to where it says shipping address.
+                            4. Change your shipping address in the boxes.
+                            5. Press save address when you’re done. 
+                            <br><br>
+                            Please note, you need to change your address approximately a week before the next shipping date (i.e. a week before the 17th), or you risk your box being delivered to the old address!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-5">
+        <h4>Billing information</h4>
+            <div class="accordion" id="billing">
+                <div class="card">
+                    <div class="card-header" id="billingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#billing1" aria-expanded="true" aria-controls="billing1">
+                            What form of payments methods do you accept?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="billing1" class="collapse show" aria-labelledby="billingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We accept Visa, Mastercard, Discover and American Express credit cards and debit cards from our Checkout page. All of our payments are processed through the Stripe Payment Processor.
+                        </div>
+                    </div>
+                    <div class="card-header" id="billingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#billing2" aria-expanded="true" aria-controls="billing2">
+                            When will I be billed?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="billing2" class="collapse show" aria-labelledby="billingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You will be billed for your first month immediately upon signup. Your plan will automatically renew (don’t worry, you can cancel anytime, from your account settings) on the 4th of the month.
+                        </div>
+                    </div>
+                    <div class="card-header" id="billingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#billing3" aria-expanded="true" aria-controls="billing3">
+                            Can I apply my coupon code to every order?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="billing3" class="collapse show" aria-labelledby="billingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Coupon codes are only applied to your first box, and every box after that will be charged regular price. Follow us on our social media and sign up to our newsletter so you don’t miss out on coupon codes!
+                        </div>
+                    </div>
+                    <div class="card-header" id="billingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#billing4" aria-expanded="true" aria-controls="billing4">
+                            How do I change my billing address?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="billing4" class="collapse show" aria-labelledby="billingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            To change your billing address it’s pretty simple.
+
+                            1. First login to your account.
+                            2. Click on “Addresses tab” on the left hand side of the screen.
+                            3. Then “edit” button next to where it says billing address.
+                            4. Change your billing address in the boxes.
+                            5. Press save address when you’re done.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>    
+
+
+
+
+
+{% endblock %}
