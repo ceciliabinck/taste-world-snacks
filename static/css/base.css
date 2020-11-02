@@ -1,4 +1,6 @@
-
+html {
+    color: #000;
+}
 /* index page */
 
 .container-intro {
@@ -76,15 +78,20 @@ hr {
     padding-top: 90px;
 }
 
+/* FAQ */
+
+.card-header {
+    padding: 0;
+}
+
+.btn-link {
+    color: #000;
+}
+
 /* Footer */
 
 footer {
     background: #ffa368;
-    /* padding-left: 40px; */
-}
-
-footer.col-sm-12 {
-    padding-left: 40px;
 }
 
 @media (max-width: 767px) {
