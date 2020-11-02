@@ -36,7 +36,7 @@
   </head>
   <body>
     <header class="container-fluid fixed-top">
-        <div class="row bg-white d-none pt-lg-2 d-lg-flex">
+        <div id="topnav" class="row bg-white d-none pt-lg-2 d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0"><strong>Taste <span class="text-pink"> World</span> Snacks</strong></h2>
@@ -100,6 +100,15 @@
                 </ul>
             </div>
         </div>
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    {% include 'includes/mobile-top-header.html' %}
+                    {% include 'includes/main_nav.html' %}
+            </nav>
+        </div>
         <hr class="divider">
     </header>
     
@@ -117,37 +126,8 @@
     {% endblock %}
 
     <footer>
-        <div class="row">
-            <div class="col-sm-12 col-md-3 col-lg-2 mt-4 offset-sm-1 offset-md-0 offset-lg-1">
-                <h5>Shop</h5>
-                <p>
-                    <a class="text-black" href="">Get a box</a><br>
-                    <a class="text-black" href="">Give a box</a><br>
-                    <a class="text-black" href="">Our shop</a>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-2 mt-4 offset-sm-1 offset-md-0 offset-lg-1">
-                <h5>Explore</h5>
-                <p>
-                    <a class="text-black" href="{% url 'home' %}#works">How it works</a><br>
-                    <a class="text-black" href="{% url 'home' %}#inside">What's inside</a><br>
-                    <a class="text-black" href="">Countries</a>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-2 mt-4 offset-sm-1 offset-md-0 offset-lg-1">
-                <h5>Support</h5>
-                <p>
-                    <a class="text-black" href="">Contact Us</a><br>
-                    <a class="text-black" href="{% url 'faq' %}">FAQ</a>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-2 mt-4 offset-sm-1 offset-md-0 offset-lg-1">
-                <h5>Company</h5>
-                <p>
-                    <a class="text-black" href="{% url 'about_us' %}">About Us</a>
-                </p>
-            </div>            
-        </div>
+        {% include 'includes/footer.html' %}
+
     </footer>
 
     {% block postloadjs %}
