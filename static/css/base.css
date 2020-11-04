@@ -90,11 +90,12 @@ hr {
 
 /* Footer */
 
-footer {
+.footer {
     background: #ffa368;
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 768px) {
     h4{
         font-size: 20px;
     }
@@ -125,9 +126,13 @@ footer {
         padding-top: 0px;
     }
 
+    .footer-col {
+        padding-left: 60px;
+    }
+
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     
     #intro {
         background: url(/static/media/main_img.jpg) no-repeat center center;
@@ -143,6 +148,8 @@ footer {
         padding: 0;
         padding-top: 45px;
     }
+
+    
 
 }
 
