@@ -94,8 +94,11 @@ hr {
     background: #ffa368;
 }
 
+.footer-col {
+    padding-left: 70px;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     h4{
         font-size: 20px;
     }
@@ -126,13 +129,9 @@ hr {
         padding-top: 0px;
     }
 
-    .footer-col {
-        padding-left: 60px;
-    }
-
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     
     #intro {
         background: url(/static/media/main_img.jpg) no-repeat center center;
@@ -148,8 +147,6 @@ hr {
         padding: 0;
         padding-top: 45px;
     }
-
-    
 
 }
 
@@ -168,6 +165,10 @@ hr {
     .intro-text.right {
         padding: 0;
         padding-top: 95px;
+    }
+
+    .footer-col {
+        padding-left: 0;
     }
 
 }
