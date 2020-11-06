@@ -7,6 +7,9 @@ html {
     padding-top: 60px;
 }
 
+.container-category {
+    background-color: #ffa368;
+}
 /* Base page */
 
 .fixed-top {
