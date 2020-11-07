@@ -2,30 +2,28 @@
     <ul class="navbar-nav w-auto mx-auto d-block d-lg-none">        
         <li class="nav-item dropdown d-block d-lg-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-shop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+                All Products <i class="fas fa-angle-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-shop-link">
                 <a href="{% url 'shop' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'shop' %}?sort=name&direction=desc" class="dropdown-item ">By name</a>
+                <a href="{% url 'shop' %}?sort=name&direction=asc" class="dropdown-item ">By Name</a>
+                <a href="{% url 'shop' %}?sort=category&direction=desc" class="dropdown-item">By Category</a>
                 <a href="{% url 'shop' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
         <li class="nav-item dropdown d-block d-lg-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="country-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?sort=country&direction=asc">
                 Countries
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="country-link">
-                <a href="{% url 'shop' %}?sort=country=Korea" class="dropdown-item">Korea</a>
-                <a href="{% url 'shop' %}?sort=country=Mexico" class="dropdown-item">Mexico</a>
-                <a href="{% url 'shop' %}?sort=country=Philippines" class="dropdown-item">Philippines</a>
-                <a href="{% url 'shop' %}?sort=country=Thailand" class="dropdown-item">Thailand</a>
-                <a href="{% url 'shop' %}?sort=country=Germany" class="dropdown-item">Germany</a>
-                <a href="{% url 'shop' %}?sort=country=United Kingdom" class="dropdown-item">United Kingdom</a>
-            </div>
         </li>
         <li class="nav-item dropdown d-block d-lg-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=sweet">
                 Sweet
+            </a>
+        </li>
+         <li class="nav-item dropdown d-block d-lg-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=cookie/cake">
+                Cookie & Cake
             </a>
         </li>
         <li class="nav-item dropdown d-block d-lg-none">

@@ -10,22 +10,28 @@
                 <ul class="list-inline list-unstyled text-center my-3">
                     <li class="dropdown list-inline-item mt-4 mx-4">
                         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-shop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            All Products
+                            All Products <i class="fas fa-angle-down"></i>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="all-shop-link">
                             <a href="{% url 'shop' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                            <a href="{% url 'shop' %}?sort=name&direction=desc" class="dropdown-item ">By name</a>
+                            <a href="{% url 'shop' %}?sort=name&direction=asc" class="dropdown-item ">By Name</a>
+                            <a href="{% url 'shop' %}?sort=category&direction=desc" class="dropdown-item">By Category</a>
                             <a href="{% url 'shop' %}" class="dropdown-item">All Products</a>
                         </div>
                     </li>
                     <li class="list-inline-item mt-4 mx-4">
-                        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{{ product.country }}">
-                            Country
+                        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?sort=country&direction=asc">
+                            Countries
                         </a>
                     </li>
                     <li class="list-inline-item mt-4 mx-4">
                         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=sweet">
                             Sweet
+                        </a>
+                    </li>
+                    <li class="list-inline-item mt-4 mx-4">
+                        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=cookie/cake">
+                            Cookie & Cake
                         </a>
                     </li>
                     <li class="list-inline-item mt-4 mx-4">
@@ -38,7 +44,6 @@
                             Savoury
                         </a>
                     </li>
-                        
                 </ul>
             </div>
             <!-- Category nav mobile -->
