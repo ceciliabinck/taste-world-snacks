@@ -19,39 +19,41 @@
         </div>
         <!-- Category nav -->
         <div class="container-category my-5">
-            <ul class="list-inline list-unstyled text-center my-3">
-                <li class="dropdown list-inline-item mt-4 mx-4">
-                    <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-shop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        All Products
-                    </a>
-                    <div class="dropdown-menu border-0" aria-labelledby="all-shop-link">
-                        <a href="{% url 'shop' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                        <a href="{% url 'shop' %}?sort=name&direction=desc" class="dropdown-item ">By name</a>
-                        <a href="{% url 'shop' %}" class="dropdown-item">All Products</a>
-                    </div>
-                </li>
-                <li class="list-inline-item mt-4 mx-4">
-                    <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{{ product.country }}">
-                        Country
-                    </a>
-                </li>
-                <li class="list-inline-item mt-4 mx-4">
-                    <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=sweet">
-                        Sweet
-                    </a>
-                </li>
-                <li class="list-inline-item mt-4 mx-4">
-                    <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'shop' %}?category=chocolate">
-                        Chocolate
-                    </a>
-                </li>
-                <li class="list-inline-item mt-4 mx-4">
-                    <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'shop' %}?category=savoury">
-                        Savoury
-                    </a>
-                </li>
-                    
-            </ul>
+            <div class="row bg-white d-none pt-lg-2 d-lg-flex">
+                <ul class="list-inline list-unstyled text-center my-3">
+                    <li class="dropdown list-inline-item mt-4 mx-4">
+                        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-shop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Products
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="all-shop-link">
+                            <a href="{% url 'shop' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                            <a href="{% url 'shop' %}?sort=name&direction=desc" class="dropdown-item ">By name</a>
+                            <a href="{% url 'shop' %}" class="dropdown-item">All Products</a>
+                        </div>
+                    </li>
+                    <li class="list-inline-item mt-4 mx-4">
+                        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{{ product.country }}">
+                            Country
+                        </a>
+                    </li>
+                    <li class="list-inline-item mt-4 mx-4">
+                        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=sweet">
+                            Sweet
+                        </a>
+                    </li>
+                    <li class="list-inline-item mt-4 mx-4">
+                        <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'shop' %}?category=chocolate">
+                            Chocolate
+                        </a>
+                    </li>
+                    <li class="list-inline-item mt-4 mx-4">
+                        <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'shop' %}?category=savoury">
+                            Savoury
+                        </a>
+                    </li>
+                        
+                </ul>
+            </div>
             <!-- Category nav mobile -->
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shop-nav" aria-controls="shop-nav" aria-expanded="false" aria-label="Toggle navigation">
