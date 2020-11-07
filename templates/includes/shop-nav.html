@@ -11,9 +11,17 @@
             </div>
         </li>
         <li class="nav-item dropdown d-block d-lg-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{{ product.country }}">
-                Country
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="country-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Countries
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="country-link">
+                <a href="{% url 'shop' %}?sort=country=Korea" class="dropdown-item">Korea</a>
+                <a href="{% url 'shop' %}?sort=country=Mexico" class="dropdown-item">Mexico</a>
+                <a href="{% url 'shop' %}?sort=country=Philippines" class="dropdown-item">Philippines</a>
+                <a href="{% url 'shop' %}?sort=country=Thailand" class="dropdown-item">Thailand</a>
+                <a href="{% url 'shop' %}?sort=country=Germany" class="dropdown-item">Germany</a>
+                <a href="{% url 'shop' %}?sort=country=United Kingdom" class="dropdown-item">United Kingdom</a>
+            </div>
         </li>
         <li class="nav-item dropdown d-block d-lg-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=sweet">
