@@ -10,6 +10,24 @@ html {
 .container-category {
     background-color: #ffa368;
 }
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #ffa368;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+.border {
+    border: 2px solid #ffa368!important;
+}
+
 /* Base page */
 
 .fixed-top {
