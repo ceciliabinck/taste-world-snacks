@@ -39,14 +39,31 @@ This web store is suitable for everyone how would want to prepare for or curious
 
 ## Tools & Libraries
 
+For research, images and inspiration I have used:
++   <a href="https://snacksurprise.com/">SnackSurprice</a>
++   <a href="https://www.snackcrate.com/">SnackCrate</a>
++   <a href="https://www.universalyums.com/">UniversalYums</a>
++   <a href="https://trymysnacks.com/">Try My Snacks</a>
++   <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">Worled of Snacks</a>
++   <a href="https://arts.gatech.edu/sites/default/files/styles/large/public/taste.jpg?itok=16T3uGCI">This is my main image</a>
+For research on errors and explantion on subjects:
++   <a href="https://www.w3schools.com/">w3schools</a>
+
+For my icons I have used:
+    <a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome</a>
+
+
 For testing I have used:
 +   <a href="https://app.grammarly.com/ddocs/941252496">Grammarly</a>
 +   <a href="https://www.diffchecker.com/diff">Diffchecker</a>
 
 
+
 # Bugs
 
-## Bug header/Navbar
+## Solved Bugs
+
+### Bug header/Navbar
 ![Bug header/Navbar](https://raw.githubusercontent.com/ceciliabinck/taste-world-snacks/master/static/media/bug-header-navbar.jpg)
 
 #### Issue: 
