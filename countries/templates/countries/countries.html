@@ -8,14 +8,35 @@
                 <h2 class="logo-font">Countries</h2>
             </div>
         </div>
-        <div class="card-group">
-            <div class="card">
-                <img src="{{ country.image }}" class="card-img-top" alt="{{ country.name }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ country.name }}</h5>
-                    <p class="card-text">{{ country.about }}</p>
+<!-- Rotating card -->
+        <div class="container">
+            <div class="row">
+                {% for country in countries %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 h-100 w-100">
+                     <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            {% if country.image %}
+                                <a href="">
+                                    <img class="activator" src="{{ country.image.url }}" alt="{{ country.name }}">
+                                </a>
+                                {% else %}
+                                <a href="">
+                                    <img class="activator img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ country.name }}">
+                                </a>
+                            {% endif %}
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">{{ country.name }}<i class="fas fa-ellipsis-v ml-5"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">{{ country.name }}<i class="fas fa-times ml-5"></i></span>
+                            <p>{{ country.about }}</p>
+                        </div>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
+    </div>
 
 {% endblock %}

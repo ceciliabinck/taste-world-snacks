@@ -18,7 +18,7 @@ class Country(models.Model):
     Supplier.country = models.ForeignKey('Supplier', null=True, unique=True, blank=True, on_delete=models.SET_NULL)
     about = models.CharField(max_length=500, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
-    image = models.ImageField(upload_to='media/countries', null=True, blank=True)
+    image = models.ImageField(upload_to='countries', null=True, blank=True)
 
     def __str__(self):
         return self.name

@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Country
 
 # Create your views here.
 
@@ -6,4 +7,10 @@ from django.shortcuts import render
 def countries(request):
     """ A view to return the countries page """
 
-    return render(request, "countries/countries.html")
+    countries = Country.objects.all()
+
+    context = {
+        'countries': countries,
+    }
+
+    return render(request, "countries/countries.html", context)
