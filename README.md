@@ -26,7 +26,7 @@ This web store is suitable for everyone how would want to prepare for or curious
 
 ### User Goals/ User Stories
 
-The User stories that I made for this project you can find them <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/wireframes/userstories/snack-userstories.pdf">here</a>. 
+The User stories that I made for this project you can find them <a href="hhttps://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/userstories/snack-userstories.pdf">here</a>. 
 
 ## User Requirements and Expectations
 
@@ -47,6 +47,16 @@ The User stories that I made for this project you can find them <a href="https:/
 + The pop-out navbar appears in place of the navbar on Tablet + Mobile Devices.
 + Form Validation works correctly.
 + The framwork as well as Stripe are build in security measures.
+
+# Wireframes
+
+I built the wireframes for this project using Balsamiq. I had to do some research to get an better idea of how the design would look like. With most of the pages I started with the desktop version and translated them to the tablet/mobile version. I choose to keep the tablet and mobile version together as they would not differ to much from eachother. As most of the manin content is displayed in columns in a row.
+
+View my wireframes <a href="https://github.com/ceciliabinck/taste-world-snacks/tree/master/external-documentation/wireframes">here</a>
+
+# Design Choices
+
+
 
 # Technologies Used
 
