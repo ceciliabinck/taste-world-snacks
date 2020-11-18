@@ -1,4 +1,4 @@
-:hI have had no ideas for this project and after a while, I had a couple of ideas to play around with. Those ideas where:
+I have had no ideas for this project and after a while, I had a couple of ideas to play around with. Those ideas where:
 1. Make a web store where customers can purchase products from Nepal, to support a friend.
 2. Make a web store where customers can purchase products from around the world.
 3. Make a web store where customers can purchase a subscription for a box with snacks from around the world.
@@ -79,7 +79,7 @@ For testing I have used:
 ## Solved Bugs
 
 ### Bug header/Navbar
-![Bug header/Navbar](https://raw.githubusercontent.com/ceciliabinck/taste-world-snacks/master/static/media/bug-header-navbar.jpg)
+![Bug header/Navbar](https://github.com/ceciliabinck/taste-world-snacks/blob/master/static/images/bug-header-navbar.jpg)
 
 #### Issue: 
 While scroling through the page, the content would show around the navbar.
