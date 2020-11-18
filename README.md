@@ -46,13 +46,23 @@ For research, images and inspiration I have used:
 +   <a href="https://trymysnacks.com/">Try My Snacks</a>
 +   <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">Worled of Snacks</a>
 +   <a href="https://arts.gatech.edu/sites/default/files/styles/large/public/taste.jpg?itok=16T3uGCI">This is my main image</a>
-For research on errors and explantion on subjects:
+For overall purpos:
++   <a href="https://docs.djangoproject.com/en/3.1/">I have used Django for my framework</a>
++   <a href="https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?child=first">I have used the Boutique Ado project as a big guideline</a>
++   <a href="https://getbootstrap.com/">I have used Bootstrap for my grid structure</a>
++   <a href="https://stripe.com/en-gb-nl">I have used Stripe for my payment option.</a>
++   <a href="https://fontawesome.com/icons?d=gallery&m=free">I have used Font awesome for my icons</a>
+For research on errors and explantion on subjects I have used:
 +   <a href="https://www.w3schools.com/">w3schools</a>
-
-For my icons I have used:
-    <a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome</a>
-
-
++   <a href="https://docs.djangoproject.com/en/3.1/ref/models/fields/#django.db.models.ForeignKey">Django project for ForeignKey</a>
++   <a href="https://jilles.me/django-foreignkeys-on_delete-handlers/">Jilles.me for on_deltee-handlers</a>
++   <a href="https://djangocentral.com/uploading-images-with-django/">Django Central for uploading image</a>
++   <a href="https://courses.codeinstitute.net/%2Fcourses/course-v1:CodeInstitute+FSF_102+Q1_2020/tutor">Tutor support</a>
+For my stripe elements JavaScript and CSS I have used:
++   <a href="https://stripe.com/docs/payments/accept-a-payment">Core logic/payment flow JavaScript</a>
++   <a href="https://stripe.com/docs/stripe-js">Core logic/payment flow CSS</a>
+For my webhook elements I have used:
++   <a href="https://stripe.com/docs/webhooks/signatures">Core logic check signatures</a>
 For testing I have used:
 +   <a href="https://app.grammarly.com/ddocs/941252496">Grammarly</a>
 +   <a href="https://www.diffchecker.com/diff">Diffchecker</a>
