@@ -24,9 +24,29 @@ I agree with some of the other companies that you can not keep this a secret but
 
 This web store is suitable for everyone how would want to prepare for or curious to visit a new country. Or those how are ready to try something else than their typical local snack. We also try to provide to the customer how loved snacks from the box, that they have tried in a certain country or are homesick. We do this by offering a selection of snacks in our store. 
 
-### User Goals
+### User Goals/ User Stories
 
-+ A veriaty 
+The User stories that I made for this project you can find them <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/wireframes/userstories/snack-userstories.pdf">here</a>. 
+
+## User Requirements and Expectations
+
+### User Requirements
+
++ The content displayed in a visually appealing manner.
++ A clear explanation of the working of the subscription for the different boxes
++ Visible and working images to get an impression of the different products.
++ Navigation should make navigating the website easier.
++ Login and register form need to be secure to help against hacking.
++ A safe and secure platform to make payments.
+
+### User Expectations
+
++ There is a clear and visuale explantion of the working of the subscription and what can be expected in a box.
++ In the FAQ a custumer can find many answered questions. If there question is still not answered they can contact us.
++ Navigation takes a user to specific parts of the website.
++ The pop-out navbar appears in place of the navbar on Tablet + Mobile Devices.
++ Form Validation works correctly.
++ The framwork as well as Stripe are build in security measures.
 
 # Technologies Used
 
