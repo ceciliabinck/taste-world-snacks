@@ -1,6 +1,5 @@
 html {
     color: #000;
-    height: 100%;
 }
 
 /* index page */
@@ -48,9 +47,6 @@ body {
     margin-top: 164px;
     color: #555;
     font-family: 'lato';
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 /* from Bulma */
