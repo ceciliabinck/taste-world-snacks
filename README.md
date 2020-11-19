@@ -24,37 +24,56 @@ I agree with some of the other companies that you can not keep this a secret but
 
 This web store is suitable for everyone how would want to prepare for or curious to visit a new country. Or those how are ready to try something else than their typical local snack. We also try to provide to the customer how loved snacks from the box, that they have tried in a certain country or are homesick. We do this by offering a selection of snacks in our store. 
 
-### User Goals/ User Stories
+## User Stories
 
-The User stories that I made for this project you can find them <a href="hhttps://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/userstories/snack-userstories.pdf">here</a>. 
++ Viewing and Navigation
 
-## User Requirements and Expectations
+    1. As a shopper, I want to be able to view a list of products, so that I can select some to purchase.
+    2. As a shopper, I want to be able to view individual product details, so that I can identify the price, product image, product ingredients, product rating, product description.
+    3. As a shopper, I want to be able to view what i can expect in a box, so that I can see if it is enough for my family.
+    4. As a shopper, I want to be able to view a specific category of products, so that I can quickly find products I’m interested in without having to search through all products.
+    5. As a shopper, I want to be able to easily see the total of my purchases at any time, so that I can avoid spending to much.
+    6. As a shopper, I want to be able to easily see from what country a snack comes from, so that I can Find my favourite snack per country.
 
-### User Requirements
++ Registration and User Accounts
 
-+ The content displayed in a visually appealing manner.
-+ A clear explanation of the working of the subscription for the different boxes
-+ Visible and working images to get an impression of the different products.
-+ Navigation should make navigating the website easier.
-+ Login and register form need to be secure to help against hacking.
-+ A safe and secure platform to make payments.
+    7. As a site user, I want to be able to easily register for an account, so that I can have an personal account and be able to view my profiel.
+    8. As a site user, I want to be able to easily login or logout, so that I can access my personal account information.
+    9. As a site user, I want to be able to receive an email confirmation after registerating, so that I can verify that my account registration was successful.
+    10. As a site user, I want to be able to have a personalized user profile, so that I can view my personalorder order history and order confirmations and save my payment information.
+    11. As a site user, I want to be able to easily recover my password in case I forget, so that I can recover access to my account
 
-### User Expectations
++ Sorting and searching
 
-+ There is a clear and visuale explantion of the working of the subscription and what can be expected in a box.
-+ In the FAQ a custumer can find many answered questions. If there question is still not answered they can contact us.
-+ Navigation takes a user to specific parts of the website.
-+ The pop-out navbar appears in place of the navbar on Tablet + Mobile Devices.
-+ Form Validation works correctly.
-+ The framwork as well as Stripe are build in security measures.
+    12. As a shopper, I want to be able to sort the list of avalible products, so that I can easily identify the best priced, what country and categorcally sorted products.
+    13. As a shopper, I want to be able to sort a specific category of product, so that I can find the best priced or best rated product in a specify category, or sort that category by name.
+    14. As a shopper, I want to be able to sort multiple categories of products simultaneously, so that I can identify the price, product image, product ingredients, product rating, product description.
+    15. As a shopper, I want to be able to search for a product by name or price, so that I can find a specific product I'd like to purchase.
 
-# Wireframes
++ Purchasing and Checkout
+
+    16. As a shopper, I want to be able to easily select the quantity of a product when purchasing it, so that I can ensure I don't accidently select the wrong product or quantity.
+    17. As a shopper, I want to be able to view items in my bag to be purchase, so that I can identify the total cost of my purchase and all the items I will receive.
+    18. As a shopper, I want to be able to adjust the quantity of induvidual items in my bag, so that I can easily make changes to my purchase before checkout.
+    19. As a shopper, I want to be able to easily enter my payment details, so that I can check out quickly and without hasslesc
+    20. As a shopper, I want to be able to feel that my payment details are safe an secure, so that I can confidently provide the needed information to make a purchase.
+    21. As a shopper, I want to be able to view my order confirmation after checkout, so that I can verify that I did not make any mistakes .
+    22. As a shopper, I want to be able to receive an email confirmation after checking out, so that I can keep the confirmation of what I have purchassed for my reccords.
+
++ Admin and box management
+
+    23. As a box contributor, I want to be able to add a product, so that I can add new box items to shop.
+    24. As a box contributor, I want to be able to edit/update a product, so that I can change product prices, images, descriptions and other product criteria.
+    25. As a box contributor, I want to be able to delete a product, so that I can remove box items that are no longer for sale
+
+
+## Wireframes
 
 I built the wireframes for this project using Balsamiq. I had to do some research to get an better idea of how the design would look like. With most of the pages I started with the desktop version and translated them to the tablet/mobile version. I choose to keep the tablet and mobile version together as they would not differ to much from eachother. As most of the manin content is displayed in columns in a row.
 
 View my wireframes <a href="https://github.com/ceciliabinck/taste-world-snacks/tree/master/external-documentation/wireframes">here</a>
 
-# Design Choices
+## Design Choices
 
 
 
