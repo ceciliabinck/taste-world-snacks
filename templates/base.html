@@ -1,7 +1,7 @@
 {% load static %}
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
     <head>
 
         {% block <meta> %}
@@ -36,7 +36,7 @@
 
         <title>Taste World Snacks{% block extra_title %}{% endblock %}</title>
     </head>
-    <body>
+    <body class="d-flex flex-column h-100">
         <header class="container-fluid fixed-top">
             <div id="topnav" class="row bg-white d-none pt-lg-2 d-lg-flex">
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -144,9 +144,9 @@
         {% block content %}
         {% endblock %}
 
-    
-        {% include 'includes/footer.html' %}
-
+        <footer class="footer mt-auto py-3">
+            {% include 'includes/footer.html' %}
+        </footer>
         
 
         {% block postloadjs %}
