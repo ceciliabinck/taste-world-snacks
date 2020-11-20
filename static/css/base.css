@@ -2,6 +2,29 @@ html {
     color: #000;
 }
 
+body {
+    background-size: cover;
+    margin-top: 164px;
+    font-family: 'lato';
+}
+
+/*  General colors */
+
+.color-1 {
+    background-color: #68c4ff;
+}
+
+.color-2 {
+    background-color: #ffa368;
+}
+
+.color-3 {
+    color: #68c4ff;
+}
+.color-4 {
+    color: #ffa368;
+}
+
 /* index page */
 
 .container-intro {
@@ -42,11 +65,8 @@ hr.divider {
     margin: 0;
 }
 
-body {
-    background-size: cover;
-    margin-top: 164px;
-    color: #555;
-    font-family: 'lato';
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #68c4ff
 }
 
 /* from Bulma */
@@ -81,7 +101,7 @@ hr {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: #ffa368;
+    color: #86c4ff;
 }
 
 .text-black {
@@ -120,7 +140,7 @@ hr {
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: #ffa368 !important;
+    color: #86c4ff !important;
 }
 
 input[name='q']::placeholder {

@@ -1,14 +1,14 @@
 <li class="list-inline-item">
     <div class="text-center text-black nav-link d-block d-lg-none">	
         <div><i class="fas fa-store fa-lg"></i></div>	
-        <a class="my-0 text-black" href="{% url 'shop' %}">Shop</a>		
+        <a class="my-0 color-4" href="{% url 'shop' %}">Shop</a>		
     </div>	
 </li>
 <li class="list-inline-item dropdown">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-user fa-lg"></i></div>
-            <p class="my-0">My Account</p>
+            <p class="my-0 color-3">My Account</p>
         </div>
     </a>
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -26,10 +26,10 @@
 </li>
 
 <li class="list-inline-item">
-    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"   href="{% url 'view_bag' %}">
+    <a class="{% if grand_total %}color-4 font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"   href="{% url 'view_bag' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-            <p class="my-0">
+            <p class="my-0 color-4">
                 {% if grand_total %}
                     ${{ grand_total|floatformat:2 }}
                 {% else %}
