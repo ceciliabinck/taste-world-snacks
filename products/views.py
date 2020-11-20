@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -58,8 +59,12 @@ def product_detail(request, product_id):
     return render(request, 'products/product_detail.html', context)
 
 
+@login_required
 def add_product(request):
     """ Add a product to our store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only box contributor can do that')
+        return redirect(reverse('home'))
 
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
@@ -80,8 +85,12 @@ def add_product(request):
     return render(request, template , context)
 
 
+@login_required
 def edit_product(request, product_id):
     """Edit a product in the store"""
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only box contributor can do that')
+        return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
@@ -105,8 +114,12 @@ def edit_product(request, product_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_product(request, product_id):
     """ Delete a product from our store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only box contributor can do that')
+        return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
