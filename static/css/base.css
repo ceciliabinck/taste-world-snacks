@@ -319,7 +319,7 @@ input[name='q']::placeholder {
     }
 
     #intro {
-        background: url(/static/media/main_img.jpg) no-repeat center center;
+        background: url(/media/images/main_img.jpg) no-repeat center center;
         height: auto;
     }
     
@@ -346,7 +346,7 @@ input[name='q']::placeholder {
 @media (min-width: 768px) {
     
     #intro {
-        background: url(/static/images/main_img.jpg) no-repeat center center;
+        background: url(/media/images/main_img.jpg) no-repeat center center;
         height: auto;
     }
 
@@ -365,7 +365,7 @@ input[name='q']::placeholder {
 @media (min-width: 1024px) {
     
     #intro {
-        background: url(/static/images/main_img_1.jpg) no-repeat center center;
+        background: url(/media/images/main_img_1.jpg) no-repeat center center;
         height: 300px;
     }
 
