@@ -128,6 +128,7 @@ For overall purpos:
 +   <a href="https://getbootstrap.com/">I have used Bootstrap for my grid structure</a>
 +   <a href="https://stripe.com/en-gb-nl">I have used Stripe for my payment option.</a>
 +   <a href="https://fontawesome.com/icons?d=gallery&m=free">I have used Font awesome for my icons</a>
++   <a href="https://www.colorhexa.com/ffa368">To find a suitable color next to my main color</a>
 
 For research on errors and explantion on subjects I have used:
 +   <a href="https://www.w3schools.com/">w3schools</a>
@@ -135,6 +136,7 @@ For research on errors and explantion on subjects I have used:
 +   <a href="https://jilles.me/django-foreignkeys-on_delete-handlers/">Jilles.me for on_deltee-handlers</a>
 +   <a href="https://djangocentral.com/uploading-images-with-django/">Django Central for uploading image</a>
 +   <a href="https://courses.codeinstitute.net/%2Fcourses/course-v1:CodeInstitute+FSF_102+Q1_2020/tutor">Tutor support</a>
++   <a href="https://www.w3schools.com/html/html_formatting.asp">Refreshing about formating</a>
 
 For my stripe elements JavaScript and CSS I have used:
 +   <a href="https://stripe.com/docs/payments/accept-a-payment">Core logic/payment flow JavaScript</a>
@@ -147,6 +149,9 @@ For testing I have used:
 +   <a href="https://app.grammarly.com/ddocs/941252496">Grammarly</a>
 +   <a href="https://www.diffchecker.com/diff">Diffchecker</a>
 
+For examples for my README.md I have used:
++   <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>A example from schoolfrom lechien73</a>
++   <a href="https://github.com/ceciliabinck/cook-with-me"></a>My last README.md</a>
 
 
 # Bugs
