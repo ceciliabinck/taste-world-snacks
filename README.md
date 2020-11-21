@@ -71,7 +71,33 @@ This web store is suitable for everyone how would want to prepare for or curious
 
 I built the wireframes for this project using Balsamiq. I had to do some research to get an better idea of how the design would look like. With most of the pages I started with the desktop version and translated them to the tablet/mobile version. I choose to keep the tablet and mobile version together as they would not differ to much from eachother. As most of the manin content is displayed in columns in a row.
 
-View my wireframes <a href="https://github.com/ceciliabinck/taste-world-snacks/tree/master/external-documentation/wireframes">here</a>
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/base%20desktop.pdf">Desktop base.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/base%20mobile.pdf">Mobile base.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/home%20desktop.pdf">Desktop home.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/home%20mobile.pdf">Mobile home.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/about%20desktop.pdf">Desktop about.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/about%20mobile.pdf">Mobile about.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/bag%20desktop.pdf">Desktop bag.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/bag%20mobile.pdf">Mobile bag.html</a>
+
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/checkout%20desktop.pdf">Desktop checkout.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/checkout%20mobile.pdf">Mobile checkout.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/contact%20desktop.pdf">Desktop contact.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/contact%20mobile.pdf">Mobile contact.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/faq%20desktop.pdf">Desktop FAQ.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/faq%20mobile.pdf">Mobile FAQ.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/get%20box%20desktop.pdf">Desktop get-box.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/get%20box%20mobile.pdf">Mobile get-box.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/give%20box%20desktop.pdf">Desktop give-box.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/give%20box%20mobile.pdf">Mobile give-box.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/give%20length%20desktop.pdf">Desktop give-lenght.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/give%20length%20mobile.pdf">Mobile give-lenght.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/login%20desktop.pdf">Desktop login.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/login%20mobile.pdf">Mobile login.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/register%20desktop.pdf">Desktop register.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/register%20mobile.pdf">Mobile register.html</a>
+
+My wireframe for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/shop%20desktop.pdf">Desktop shop.html</a> and for <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/wireframes/shop%20mobile.pdf">Mobile shop.html</a>
+
 
 ## Design Choices
 
