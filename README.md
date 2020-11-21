@@ -137,6 +137,7 @@ For research on errors and explantion on subjects I have used:
 +   <a href="https://djangocentral.com/uploading-images-with-django/">Django Central for uploading image</a>
 +   <a href="https://courses.codeinstitute.net/%2Fcourses/course-v1:CodeInstitute+FSF_102+Q1_2020/tutor">Tutor support</a>
 +   <a href="https://www.w3schools.com/html/html_formatting.asp">Refreshing about formating</a>
++   <a href="view-source:https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/">solution to my footer issue</a>
 
 For my stripe elements JavaScript and CSS I have used:
 +   <a href="https://stripe.com/docs/payments/accept-a-payment">Core logic/payment flow JavaScript</a>
@@ -150,19 +151,30 @@ For testing I have used:
 +   <a href="https://www.diffchecker.com/diff">Diffchecker</a>
 
 For examples for my README.md I have used:
-+   <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>A example from schoolfrom lechien73</a>
-+   <a href="https://github.com/ceciliabinck/cook-with-me"></a>My last README.md</a>
++   <a href="https://github.com/Code-Institute-Solutions/SampleREADME">A example from schoolfrom lechien73</a>
++   <a href="https://github.com/ceciliabinck/cook-with-me">My last README.md</a>
 
 
-# Bugs
+# Issues
 
-## Solved Bugs
+## Solved Issues
 
-### Bug header/Navbar
-![Bug header/Navbar](https://github.com/ceciliabinck/taste-world-snacks/blob/master/media/images/bug-header-navbar.jpg)
+- Issue  header/Navbar
 
-#### Issue: 
-While scroling through the page, the content would show around the navbar.
+![Issue header/Navbar](https://github.com/ceciliabinck/taste-world-snacks/blob/master/media/images/bug-header-navbar.jpg)
 
-#### Solution: 
-Turned out that the padding and margin left open spaces in the Navbar. So when I removed them no content was shown behing the
+While scroling through the page. I saw that the content would scrole behind the navbar. Turned out that the padding and margin left open spaces in the Navbar. So when I removed the padding and margin there was no more content shown behing the header/navbar when scroling through the page.
+
+- Issue Footer
+
+After testing the delete link in the bag. I saw that the footer was not at the bottom of the page but under the content. I did not set any height for the HTML or the body so that made the footer float up. I added a height of h-100 next the HTML and body and gave the footer mt-auto py-3 and the footer stayed at the bottom of the page.
+
+- Issue merging images
+
+I started putting images in the static folder. But now only static files could go in the static folder and images have to go in the media folder. When I moved the images folder in the media folder and adjusted my URL for my images it gave an error. I was writing image URL as in Flask. One of the tutors told me that in django image URLs are written different. So after adjusting the image URLs it worked correct.
+
+## Unsolved Issues
+
+- Issue update link
+
+The update link to update the form after a custumer adjusted the quantity is outside the form, as it does not have to submite anything. This means that the form will not catch it when a customer adjust the quantity to outside the allowed scope. The buttons and arrows in and around the input field in the shopping bag are restricted as in the product detail page. Adding the update link to a button in the form gives it that last check but the delete link doesn't work correctly inside the form. 
