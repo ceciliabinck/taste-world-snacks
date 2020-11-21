@@ -128,7 +128,7 @@ For testing I have used:
 ## Solved Bugs
 
 ### Bug header/Navbar
-![Bug header/Navbar](https://github.com/ceciliabinck/taste-world-snacks/blob/master/static/images/bug-header-navbar.jpg)
+![Bug header/Navbar](https://github.com/ceciliabinck/taste-world-snacks/blob/master/media/images/bug-header-navbar.jpg)
 
 #### Issue: 
 While scroling through the page, the content would show around the navbar.
