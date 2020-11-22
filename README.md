@@ -121,6 +121,7 @@ For research, images and inspiration I have used:
 +   <a href="https://trymysnacks.com/">Try My Snacks</a>
 +   <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">Worled of Snacks</a>
 +   <a href="https://arts.gatech.edu/sites/default/files/styles/large/public/taste.jpg?itok=16T3uGCI">This is my main image</a>
++   <a href="https://www.jumia.com.ng/minimie-chinchin-snack-jar-52328842.html">Nigerian grocery Jumia</a>
 
 For overall purpos:
 +   <a href="https://docs.djangoproject.com/en/3.1/">I have used Django for my framework</a>
