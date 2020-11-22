@@ -16,11 +16,11 @@
                         <div class="card-image waves-effect waves-block waves-light text-center">
                             {% if country.image %}
                                 <a href="">
-                                    <img class="img-fluid img-class" src="{{ country.image.url }}" alt="{{ country.name }}">
+                                    <img class="img-fluid img-country" src="{{ country.image.url }}" alt="{{ country.name }}">
                                 </a>
                                 {% else %}
                                 <a href="">
-                                    <img class="img-fluid img-class" src="{{ MEDIA_URL }}noimage.png" alt="{{ country.name }}">
+                                    <img class="img-fluid img-country" src="{{ MEDIA_URL }}noimage.png" alt="{{ country.name }}">
                                 </a>
                             {% endif %}
                         </div>
