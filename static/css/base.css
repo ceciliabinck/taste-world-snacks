@@ -381,7 +381,10 @@ hr {
         background: url(/media/images/main_img_1.jpg) no-repeat center center;
         height: 300px;
     }
-
+    
+    .secret {
+        height: 238px;
+    }
     .intro-text.left {
         padding: 0;
         padding-top: 95px;
