@@ -122,6 +122,14 @@ hr {
     padding-top: 90px;
 }
 
+
+/* Images */
+
+.img-class {
+    height: 150px;
+    margin: auto;
+}
+
 /* FAQ */
 
 .card-header {
