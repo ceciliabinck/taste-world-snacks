@@ -20,26 +20,7 @@
                 
                 <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                     {% csrf_token %}
-                    <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Full Name</legend>
-                        {{ order_form.full_name }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Email</legend>
-                        {{ order_form.email }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Phone Number</legend>
-                        {{ order_form.phone_number }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Street Address 1</legend>
-                        {{ order_form.street_address1 }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Street Address 2</legend>
-                        {{ order_form.street_address2 }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Town or City</legend>
-                        {{ order_form.town_or_city }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Country</legend>
-                        {{ order_form.country }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">Postcode</legend>
-                        {{ order_form.postcode }}
-                        <legend class="fieldset-label small text-black px-2 w-auto">County</legend>
-                        {{ order_form.county }}
-                    </fieldset>
+                     {{ form |crispy }}
                     <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
                 </form>
             </div>
