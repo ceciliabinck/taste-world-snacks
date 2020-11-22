@@ -8,6 +8,10 @@ body {
     font-family: 'lato';
 }
 
+.container {
+    max-width: 100%
+}
+
 /*  General colors */
 
 .color-1 {
@@ -35,6 +39,9 @@ body {
     background-color: #ffa368;
 }
 
+.how-works {
+    width: 100vw;
+}
 .btt-button {
     height: 42px;
     width: 42px;
@@ -61,8 +68,9 @@ body {
 }
 
 hr.divider {
-    border: 15px solid #ffa368;
     margin: 0;
+    height: 15px;
+    background-color: #ffa368
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -341,6 +349,7 @@ hr {
 
 @media (min-width: 768px) {
     
+
     #intro {
         background: url(/media/images/main_img.jpg) no-repeat center center;
         height: auto;
