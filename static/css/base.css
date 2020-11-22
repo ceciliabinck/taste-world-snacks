@@ -39,6 +39,10 @@ body {
     background-color: #ffa368;
 }
 
+.review {
+    width: 16rem;
+}
+
 .how-works {
     width: 100vw;
 }
