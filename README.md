@@ -121,7 +121,7 @@ For research, images and inspiration I have used:
 +   <a href="https://trymysnacks.com/">Try My Snacks</a>
 +   <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">Worled of Snacks</a>
 +   <a href="https://arts.gatech.edu/sites/default/files/styles/large/public/taste.jpg?itok=16T3uGCI">This is my main image</a>
-+   <a href="https://www.jumia.com.ng/minimie-chinchin-snack-jar-52328842.html">Nigerian grocery Jumia</a>
++   <a href="https://www.jumia.com.ng">Nigerian grocery Jumia</a>
 
 For overall purpos:
 +   <a href="https://docs.djangoproject.com/en/3.1/">I have used Django for my framework</a>
@@ -139,6 +139,8 @@ For research on errors and explantion on subjects I have used:
 +   <a href="https://courses.codeinstitute.net/%2Fcourses/course-v1:CodeInstitute+FSF_102+Q1_2020/tutor">Tutor support</a>
 +   <a href="https://www.w3schools.com/html/html_formatting.asp">Refreshing about formating</a>
 +   <a href="view-source:https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/">solution to my footer issue</a>
++   <a href="https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/">How to undo almost anything with git</a>
+
 
 For my stripe elements JavaScript and CSS I have used:
 +   <a href="https://stripe.com/docs/payments/accept-a-payment">Core logic/payment flow JavaScript</a>
