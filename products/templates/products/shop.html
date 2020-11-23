@@ -5,7 +5,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
+                <hr>
                 <h2 class="logo-font">Our Shop</h2>
+                <hr>
             </div>
         </div>
         <!-- Category nav -->
@@ -67,11 +69,11 @@
                             <div class="card h-100 border-0">
                                 {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
-                                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                        <img class="card-img-top img-fluid img-shop" src="{{ product.image.url }}" alt="{{ product.name }}">
                                     </a>
                                 {% else %}
                                     <a href="{% url 'product_detail' product.id %}">
-                                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" 
+                                        <img class="card-img-top img-fluid img-shop" src="{{ MEDIA_URL }}noimage.png" 
                                         alt="{{ product.name }}">
                                     </a>
                                 {% endif %}
