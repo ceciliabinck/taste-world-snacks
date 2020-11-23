@@ -10,13 +10,13 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font text-center mb-4">My Profile</h2>
+                <h2 class="logo-font text-center">My Profile</h2>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-lg-6">
-                <p class="text-muted">Default Delivery Information</p>
+                <p class="text-muted py-3">Default Delivery Information</p>
                 
                 <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                     {% csrf_token %}
@@ -25,7 +25,7 @@
                 </form>
             </div>
             <div class="col-12 col-lg-6">
-                <p class="text-muted">Order History</p>
+                <p class="text-muted py-3">Order History</p>
                 <div class="order-history table-responsive">
                     <table class="table table-sm table-borderless">
                         <thead>
