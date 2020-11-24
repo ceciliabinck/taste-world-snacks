@@ -9,3 +9,4 @@ __pycache__/
 .theia
 .gitpod.dockerfile
 .gitpod.yml
+.db.json
