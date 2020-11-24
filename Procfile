@@ -1,1 +1,2 @@
-web:gunicorn taste-world_snacks.wsgi:application
+web: gunicorn taste_world_snacks.wsgi:application
+  
