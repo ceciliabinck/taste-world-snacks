@@ -123,7 +123,7 @@ WSGI_APPLICATION = 'taste_world_snacks.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 if 'DATABASE_URL' in os.environ:
-    DATABASE = {
+    DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
@@ -184,7 +184,7 @@ if 'USE_AWS' in os.environ:
     }
 
     AWS_STORAGE_BUCKET_NAME = 'taste-world-snacks'
-    AWS_S3_REGIN_NAME = 'EU (London) eu-west-2'
+    AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
