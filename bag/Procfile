@@ -1,0 +1,1 @@
+web:gunicorn taste-world_snacks.wsgi:application
