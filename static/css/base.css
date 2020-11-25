@@ -72,6 +72,10 @@ body {
     padding: 0;
 }
 
+.title {
+    font-family: ;
+}
+
 hr.divider {
     margin: 0;
     height: 15px;
@@ -121,10 +125,15 @@ hr {
     color: #000 !important;
 }
 
-/* inside */
+/* inside needs in index */
 
 .inside-middle{
     padding-top: 90px;
+}
+/* Boxes for image */
+
+.box {
+    width: 40%;
 }
 
 
