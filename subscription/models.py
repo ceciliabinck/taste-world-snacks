@@ -9,7 +9,7 @@ class Box(models.Model):
         verbose_name_plural = 'Boxes'
 
     name = models.CharField(max_length=254)
-    image = models.ImageField(null=False, blank=False)
+    image = models.ImageField(upload_to='images', null=False, blank=False)
     about = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image_url = models.URLField(max_length=1024, null=False, blank=False)
