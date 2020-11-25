@@ -21,7 +21,7 @@ def contact_us(request):
             subject = "Tast World Snacks Contact Form"
             message = post.message = request.POST.get(
                 "txtMsg") + " From: " + post.full_name + " Sender's Email Address " + post.email
-            from_email = "tasteworldsnacks@example.com"
+            from_email = "cecilia4binck@gmail.com"
             if subject and message and from_email:
                 try:
                     send_mail(subject, message, from_email, ['cecilia4binck@gmail.com'])
@@ -30,5 +30,4 @@ def contact_us(request):
                 return render(request, "contact/contact_success.html")
             return HttpResponse("Make sure all fields are entered and valid.")
         return render(request, "contact/contact_success.html")
-
     return render(request, "contact/contact_us.html")
