@@ -9,13 +9,21 @@
                 <hr>
                 <h2 class="logo-font">Get your self one of our deliciouse <span class="color-3">boxes</span></h2>
                 <hr>
-                <h5 class="py-3">Choice your box size</h5>
+                <h5 class="py-3">Chooce your box size</h5>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                {{ name }}
-            </div>
+            {% for box in box %}
+                <div class="col-sm-12 col-md-6 text-center my-3">
+                    <h4>{{ box.name }}</h4>
+                    <a href="">
+                        <img class="card-img-top box" src="{{ box.image.url }}" alt="{{ box.name }}">
+                    </a>
+                    <p>{{ box.about }}</p>
+                    <p>${{ box.price }}</p>
+                    <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase" type="submit">Select</button>
+                </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}

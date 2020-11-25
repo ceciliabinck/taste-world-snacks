@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Box
+from .models import Box, Length
 
 # Register your models here.
 
@@ -7,10 +7,18 @@ from .models import Box
 class BoxAdmin(admin.ModelAdmin):
     list_display = (
         'name',
-        'image'
+        'image',
         'price',
         'image_url',
     )
 
 
+class LengthAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+        'length',
+    )
+
+
 admin.site.register(Box, BoxAdmin)
+admin.site.register(Length, LengthAdmin)
