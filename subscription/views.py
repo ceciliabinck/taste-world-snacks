@@ -18,7 +18,8 @@ def box(request):
 
 
 def box_length(request):
-    """ A view to show length options for box """
+    """ A view to show length options for box 
+    so it has to get the box id from the other page"""
 
     length = Length.objects.all()
 

@@ -21,7 +21,12 @@
                     </a>
                     <p>{{ box.about }}</p>
                     <p>${{ box.price }}</p>
-                    <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase" type="submit">Select</button>
+                    <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase" type="submit"><a href="{% url 'box_length' %}">
+                        Select
+                        </a>
+                    </button>
+                    
+
                 </div>
             {% endfor %}
         </div>

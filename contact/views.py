@@ -21,7 +21,7 @@ def contact_us(request):
             subject = "Tast World Snacks Contact Form"
             message = post.message = request.POST.get(
                 "txtMsg") + " From: " + post.full_name + " Sender's Email Address " + post.email
-            from_email = "cecilia4binck@gmail.com"
+            from_email = "tasteworldsnacks@example.com"
             if subject and message and from_email:
                 try:
                     send_mail(subject, message, from_email, ['cecilia4binck@gmail.com'])
