@@ -19,14 +19,10 @@ def box(request):
 
 def box_length(request, box_id):
     """ A view to show length options for box 
-    so it has to get the box id from the other page"""
+    So now to get the"""
 
     length = Length.objects.all()
     box = get_object_or_404(Box, pk=box_id)
-    cost = box.price
-    time = length
-
-    print(length)
 
     context = {
         'length': length,
