@@ -12,10 +12,13 @@
                 <h5 class="py-3">Chooce your box length</h5>
             </div>
         </div>
-        <div class="row">
+        <div class="row my-3">
             {% for length in length %}
                 <div class="col-sm-12 col-md-4 text-center my-3">
                     <h4>{{ length.name }}</h4>
+                    <p>${{ box.price }}</p>
+                    <hr>
+                    <p>$month_price</p>
                     <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase" type="submit">Select</button>
                 </div>
             {% endfor %}

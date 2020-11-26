@@ -21,8 +21,9 @@
                     </a>
                     <p>{{ box.about }}</p>
                     <p>${{ box.price }}</p>
-                    <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase" type="submit"><a href="{% url 'box_length' %}">
-                        Select
+                    <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase">
+                        <a href="{% url 'box_length' box.id %}">
+                            Select
                         </a>
                     </button>
                     
