@@ -20,7 +20,6 @@ def box(request):
 def box_length(request, box_id):
     """ A view to show length options for box 
     So now to get the"""
-    # import pdb; pdb.set_trace()
     length = Length.objects.all()
     box = get_object_or_404(Box, pk=box_id)
     cost = box.price
@@ -29,7 +28,6 @@ def box_length(request, box_id):
         print(l.length)
         new_length = {'id': l.id, 'name': l.name, 'cost': l.length * cost}
         box_lengths.append(new_length)
-    # month_price = cost * 2
 
     print(box_lengths)
     context = {
