@@ -15,13 +15,11 @@
         <div class="row my-3">
             {% for length in length %}
                 <div class="col-sm-12 col-md-4 text-center my-3">
-                    <h4>{{ length.length }} month</h4>
+                    <h4>{{ length.name }}</h4>
                     <p>Per month ${{ box.price }}</p>
                     <p></p>
                     <hr>
-                    {% for box.month_price in box_id  %}
-                        <p>${{ box.month_price }}</p>
-                    {% endfor %}
+                    <p>${{ length.cost }}</p>
                     <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase" type="submit">Select</button>
                 </div>
             {% endfor %}
