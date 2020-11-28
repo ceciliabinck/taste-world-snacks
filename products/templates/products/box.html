@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <hr>
+                <h2 class="logo-font">Get your self one of our deliciouse <span class="color-3">boxes</span></h2>
+                <hr>
+                <h5 class="py-3">Chooce your box size</h5>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6 text-center my-3">
+                <h4>Original</h4>
+                <img class="box" src="{{ MEDIA_URL }}products/box1.png" alt="box1.png"> <!-- https://snacksurprise.com/ -->
+                <p>Try a new country every month<br>10+ full-size snacks<br>16+ pages guide booklet</p>
+                <p>$12.95</p>
+                <button class="btn btn-outline-black rounded-0 mt-5 text-uppercase">
+                    <a href="{% url 'box_original' %}">
+                        Select
+                    </a>
+                </button>
+            </div>
+            <div class="col-sm-12 col-md-6 text-center my-3">
+                <h4>Premium</h4>
+                <img class="box" src="{{ MEDIA_URL }}products/box2.png" alt="box2.png"> <!-- https://snacksurprise.com/ -->
+                <p>Try a new country every month<br>10+ full-size snacks<br>16+ pages guide booklet<br>With some bonus snacks</p>
+                <p>$24.95</p>
+                <button class="btn btn-outline-black rounded-0 mt-4 text-uppercase">
+                    <a href="{% url 'box_premium' %}">
+                        Select
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

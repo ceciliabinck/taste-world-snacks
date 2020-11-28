@@ -12,7 +12,7 @@ from .forms import ProductForm
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
-    products = Product.objects.all()
+    products = Product.objects.all()[:14]
     categories = None
     sort = None
     direction = None
@@ -56,6 +56,37 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def box(request):
+    """ A view the returns the box options """
+
+
+    return render(request, "products/box.html")
+
+
+def box_original(request):
+    """ A view to show all box length options of box original """
+
+    products = Product.objects.all()[14:17]
+
+    context = {
+        'products': products,
+    }
+
+    return render(request, 'products/box_original.html', context)
+
+
+def box_premium(request):
+    """ A view to show all box length options of box original """
+
+    products = Product.objects.all()[17:20]
+
+    context = {
+        'products': products,
+    }
+
+    return render(request, 'products/box_premium.html', context)
 
 
 @login_required
