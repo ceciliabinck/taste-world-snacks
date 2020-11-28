@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'countries',
     'checkout',
     'profiles',
-    'subscription',
     'contact',
 
     # Other
