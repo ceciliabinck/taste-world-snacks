@@ -16,6 +16,7 @@
             {% for product in products %}                 
                 <div class="col-sm-12 col-md-6 col-lg-4 my-3">
                     <div class="card h-100 border-0 text-center">
+                        <p class="lead mb-0 font-weight-bold">{{ product.length }}</p>
                         {% if product.image %}
                             <a href="">
                                 <img class="card-img-top img-fluid box" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -27,12 +28,12 @@
                             </a>
                         {% endif %}
                         <div class="card-body pb-0 text-center">
-                            <p class="mb-0">{{ product.name }}</p>
+                            <p class="lead mb-0">{{ product.name }}</p>
                         </div>
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col text-center">
-                                    <p class="lead mb-0 font-weight-bold">Per month: ${{ product.total_price }}</p>
+                                    <p class="lead mb-0">Per month: ${{ product.total_price }}</p>
                                     <hr>
                                     <p class="lead mb-0 font-weight-bold">Total Price: ${{ product.price }}</p>
                                     {% if request.user.is_superuser %}
