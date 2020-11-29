@@ -44,7 +44,7 @@
                                     {% endif %}
                                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                                     {% csrf_token %}
-                                    <div class="form-row">
+                                    <div class="form-row"><!--quantity is not shown -->
                                         <div class="col-6 offset-3 text-center d-none">
                                             <p class="mt-3"><strong>Quantity:</strong></p>
                                             <div class="form-group">
@@ -57,11 +57,10 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="col-12">
+                                        <div class="col-12">  <!--submit button -->
                                             <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
                                         </div>
-                                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                        <input type="hidden" name="redirect_url" value="{{ 'home' }}">
                                     </div>
                                 </form>
 
@@ -74,4 +73,3 @@
         </div>
     </div>
 {% endblock %}
-
