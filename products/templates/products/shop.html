@@ -21,14 +21,16 @@
                         <div class="dropdown-menu border-0" aria-labelledby="all-shop-link">
                             <a href="{% url 'shop' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                             <a href="{% url 'shop' %}?sort=name&direction=asc" class="dropdown-item ">By Name</a>
-                            <a href="{% url 'shop' %}?sort=category&direction=desc" class="dropdown-item">By Category</a>
+                            <a href="{% url 'shop' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
                             <a href="{% url 'shop' %}" class="dropdown-item">All Products</a>
                         </div>
                     </li>
                     <li class="list-inline-item">
+                    {% if product.category != 'box' %}
                         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?sort=country&direction=asc">
                             Countries
                         </a>
+                    {% endif %}
                     </li>
                     <li class="list-inline-item">
                         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'shop' %}?category=sweet">
@@ -64,7 +66,8 @@
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
-                    {% for product in products %}                 
+                    {% for product in products %}           
+                    {% if product.name != 'Original' and product.name != 'Premium' %}    
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if product.image %}
@@ -123,6 +126,7 @@
                                 <hr>
                             </div>
                         {% endif  %}
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
