@@ -263,6 +263,16 @@ hr.divider {
     padding-left: 70px;
 }
 
+.social-links a {
+    color: #000;
+    size: 30px;
+    padding: 0;
+}
+
+.social-links ul {
+    padding: 0;
+}
+
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
