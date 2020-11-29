@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
-from .views import contact_us
+
+# The different paths in this app
 
 
 urlpatterns = [

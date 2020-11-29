@@ -14,7 +14,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div id="send" class="col-12 py-3">
+        <div id="send" class="col-12 py-3"> <!-- user contact form -->
             <form action="{% url 'contact_us' %}" method="POST" id="user-contact-form" class="col-12 col-md-6 offset-md-3">
                 {% csrf_token %}
                 <div class="form-group">
@@ -24,10 +24,10 @@
                     <input type="email" id="email" name="txtEmail" class="form-control" required />
                     <legend class="fieldset-label text-black px-2 w-auto">Message *</legend>
                     <textarea name="txtMsg" class="form-control" style="width: 100%; height: 150px;" required></textarea>
-                </div>
+                </div> <!-- submit button and link to home -->
                 <div class="text-center">
                     <button type="submit" name="btnSubmit" class="btn btn-black logo-font rounded-0 mt-5" value="Post">SEND</button>
-                    <a href="{% url 'home' %}" class="btn btn-outline-black logo-font rounded-0 mt-5 contact-link">Click here to return to the home page.</a>
+                    <a href="{% url 'home' %}" class="btn btn-outline-black logo-font rounded-0 mt-5 contact-link">Click here to go to the home page.</a>
                 </div>
             </form>    
         </div>

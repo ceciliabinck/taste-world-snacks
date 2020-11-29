@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Country
 
-# Register your models here.
+# Register your models here, that will appear in the database admin.
 
 
 class CountryAdmin(admin.ModelAdmin):

@@ -1,12 +1,15 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here. Structure of the database of the order app.
 
 
 class Supplier(models.Model):
 
     name = models.CharField(max_length=254)
     email = models.CharField(max_length=254)
+
+    def __str__(self):
+        return self.name
 
 
 class Country(models.Model):

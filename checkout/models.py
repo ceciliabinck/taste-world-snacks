@@ -8,7 +8,7 @@ from django_countries.fields import CountryField
 from products.models import Product
 from profiles.models import UserProfile
 
-# Create your models here.
+# Create your models here. Structure of the database of the order app.
 
 
 class Order(models.Model):

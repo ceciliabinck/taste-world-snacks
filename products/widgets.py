@@ -1,5 +1,7 @@
 from django.forms.widgets import ClearableFileInput
-from django.utils.translation import gettext_lazy as _ 
+from django.utils.translation import gettext_lazy as _
+
+# custom widget for the image input
 
 
 class CustomClearableFileInput(ClearableFileInput):

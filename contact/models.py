@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here. Structure of the database of the order app.
 
 
 class Contact(models.Model):

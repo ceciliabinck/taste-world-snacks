@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}    
-<div class="container-intro">
+<div class="container-intro"> <!-- intro on to the page --> 
     <div class="row">
         <div class="col-12 text-center">
             <h4 class="logo-font text-black text-center">
@@ -35,7 +35,7 @@
         </div>
     </div>
 </div>
-<hr>
+<hr> <!-- how it works section -->
 <div class="container-fluid color-1 pt-5">
     <div class="row pb-4">
         <div class="text-center mb-4 text-black col-12">
@@ -49,9 +49,9 @@
             <img src="{{ MEDIA_URL }}images/step-1.jpg"  alt="Step-1"> <!-- https://snacksurprise.com/ -->
             <p>Step 1</p>
             <h4>
-                Choose your box or get surprised
+                Choose your box and get surprised
             </h4>
-            <p>Choose your box size and get surprised. Don't like surprises or you know what country you want. Then choose your own box</p>
+            <p>The only other step is to choose your box size.</p>
         </div>
         <div class="col-sm-12 col-lg-4 text-center text-black">
             <img src="{{ MEDIA_URL }}images/step-2.jpg" alt="Step-2"> <!-- https://snacksurprise.com/ -->
@@ -72,7 +72,7 @@
     </div>
 </div>
 <hr>
-    <div class="container-fluid py-5">
+<div class="container-fluid py-5"> <!-- what's inside section -->
     <div class="row pb-4">
         <div class="text-center mb-4 text-black col-12">
             <h2>
@@ -99,7 +99,7 @@
     </div>
 </div>
 <hr>
-<div class="container-fluid color-1 py-5">
+<div class="container-fluid color-1 py-5"> <!-- what our customers think section -->
     <div class="row pb-4">
         <div class="text-center mb-4 text-black col-12">
             <h2>
@@ -113,6 +113,7 @@
                 <div class="card-body">
                     <p class="card-text">We just recieved our first box in the mail and it is from the county I have always wanted to go SOUTH KOREA!!!!!!!!!!!!</p>
                     <p>Emiley Carter</p>
+                    <p>2020-09-12</p>
                 </div>
             </div>
         </div>
@@ -121,6 +122,7 @@
                 <div class="card-body">
                     <p class="card-text">I can't wait to see the look on my kids faces when they see where we are "traveling" to this month as were not allowed to travel now a days.</p>
                     <p>Charlie Dickons</p>
+                    <p>2020-08-02</p>
                 </div>
             </div>
         </div>
@@ -129,6 +131,7 @@
                 <div class="card-body">
                     <p class="card-text">I just opened my box and I and could just cry. All the great snacks I have been missing after coming back from South Korea.</p>
                     <p>Catharina Keeth</p>
+                    <p>2020-09-03</p>
                 </div>
             </div>
         </div>
@@ -137,11 +140,12 @@
                 <div class="card-body">
                     <p class="card-text">I can't wait to surprise my girlfriend with these snacks from here home country. She is ging to love this.</p>
                     <p>Kyle Dalson</p>
+                    <p>2020-10-04</p>
                 </div>
             </div>
         </div>
     </div>
-</div>   
+</div> <!-- the arrow in the screen -->
 <div class="btt-button shadow-sm rounded-0 border border">
     <a class="btt-link d-flex h-100">
         <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
@@ -150,8 +154,8 @@
 
 {% endblock %}
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript">
+    {{ block.super }} <!-- JS for the arrow -->
+    <script type="text/javascript"> 
 		$('.btt-link').click(function(e) {
 			window.scrollTo(0,0)
 		})

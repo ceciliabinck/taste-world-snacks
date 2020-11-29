@@ -5,7 +5,7 @@ from django.dispatch import receiver
 
 from django_countries.fields import CountryField
 
-# Create your models here.
+# Create your models here. Structure of the database of the order app.
 
 
 class UserProfile(models.Model):

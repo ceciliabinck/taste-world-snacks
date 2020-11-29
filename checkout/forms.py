@@ -1,6 +1,8 @@
 from django import forms
 from .models import Order
 
+# The different kind of forms
+
 
 class OrderForm(forms.ModelForm):
     class Meta:

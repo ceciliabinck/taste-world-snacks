@@ -5,6 +5,7 @@ from products.models import Product
 
 
 def bag_contents(request):
+    """ The logic behind the shopping bag """
 
     bag_items = []
     total = 0

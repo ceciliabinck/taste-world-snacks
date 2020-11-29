@@ -169,6 +169,7 @@ For overall purpos:
 +   <a href="https://balsamiq.com/">Balsamiq I have used to make my wireframes.</a>
 +   <a href="https://fonts.google.com/">Google font I have used for my choosen fonts</a>
 +   <a href="https://www.colorhexa.com/ffa368">Colorhexa I have used to find the complementary colour for my main colour.</a>
++   <a href="https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example">Bootstrap accordion I used for my FAQ page</a>
 
 For research on errors and explantion on subjects I have used:
 +   <a href="https://www.w3schools.com/">w3schools</a>

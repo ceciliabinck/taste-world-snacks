@@ -15,7 +15,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 offset-md-3">
+            <div class="col-12 col-md-6 offset-md-3"> <!-- form where suplier can add products -->
                 <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                     {% for field in form %}
@@ -25,7 +25,7 @@
                             {{ field }}
                         {% endif %}
                     {% endfor %}
-                    <div class="text-right">
+                    <div class="text-right"> <!-- cancel and submit buttons -->
                         <a class="btn btn-outline-black rounded-0" href="{% url 'shop' %}">Cancel</a>
                         <button class="btn btn-black rounded-0" type="submit">Add Product</button>
                     </div>
@@ -36,7 +36,7 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
+    {{ block.super }} <!-- JS for cancel and submit buttons -->
     <script type="text/javascript">
         $('#new-image').change(function() {
             var file = $('#new-image')[0].files[0];
