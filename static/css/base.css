@@ -94,10 +94,6 @@ hr {
     padding: 0;
 }
 
-.title {
-    font-family: ;
-}
-
 /* I the one under the main navbar */
 hr.divider {
     margin: 0;
@@ -265,7 +261,6 @@ hr.divider {
 
 .social-links a {
     color: #000;
-    size: 30px;
     padding: 0;
 }
 
