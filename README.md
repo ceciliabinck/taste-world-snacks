@@ -132,6 +132,34 @@ I also made a wireframe for how I think my database structure would look like. I
 
 To view my database diagram wireframe <a href="https://github.com/ceciliabinck/taste-world-snacks/blob/master/external-documentation/database_diagram/database-diagram.png">click here</a>.
 
+# Features
+
+- [x] There is a navbar to nagigate te website better
+- [x] Responsive on most devices
+- [x] Customers can order a surprice subscription box
+- [x] Customers can buy things from our shop
+- [x] Customers can pay buy credit card
+- [x] There is an arrow on the index and shop page to help customers nagigate up easily
+- [x] For customers to see the contains of there shopping bag in the succes message dialog box
+- [x] There is are images and icons for customers to visuale understand the concept better
+- [x] That makes it easier for supliers to see what image they when inserted when adding or editing products
+- [x] There is a footer to navigate customers to important other pages that are less important for overal concept
+- [x] The shopping bag changes colour when custumer has something in the shopping bag
+- [x] There are links to social media
+- [x] The navbar turns in to a dropdown on smaller and medium devices ti increase screen real estate
+- [x] There are links to important information so customers don't have to search long to find the concept of the project
+- [x] There is a FAQ where customers can find frequant asked questions
+- [x] There is a contact form so the customers can get in contact with the company
+- [x] Customers can update there personal information on there profile
+- [x] Customers can see there previous orders on there profile
+- [x] Costomers receive an order confirmation email
+
+## Features Left to Implement
+
+- [ ] Give customers the option to pick there own countries for the boxes they ordered.
+- [ ] Give customers the option to buy a box for someone else.
+- [ ] Prevent that supliers can add products to any country but there own
+
 # Technologies Used
 
 ## Languages
@@ -222,8 +250,20 @@ After testing the delete link in the bag. I saw that the footer was not at the b
 
 I started putting images in the static folder. But now only static files could go in the static folder and images have to go in the media folder. When I moved the images folder in the media folder and adjusted my URL for my images it gave an error. I was writing image URL as in Flask. One of the tutors told me that in django image URLs are written different. So after adjusting the image URLs it worked correct.
 
+- Issue boxes subscriptions
+
+I wanted to make two directions in the project. A shop direction and a box subscription direction. I made the shop side first and after I finished. When I got the subscription part so far that the last step was adding them to the bag and checkout. If I wanted to make this work I had to rewrite 3 to 4 pages. So I decided to add them as products and present in a different manner. I limiting the queryset to show only the boxes that I wanted but this mean that they have to be adjusted everytime a new products is inserted or a product gets delete untill a better solution is found.
+
 ## Unsolved Issues
 
 - Issue update link
 
-The update link to update the form after a custumer adjusted the quantity is outside the form, as it does not have to submite anything. This means that the form will not catch it when a customer adjust the quantity to outside the allowed scope. The buttons and arrows in and around the input field in the shopping bag are restricted as in the product detail page. Adding the update link to a button in the form gives it that last check but the delete link doesn't work correctly inside the form. 
+The update link to update the form after a customer adjusted the quantity is outside the form, as it does not have to submite anything. This means that the form will not catch it when a customer adjust the quantity to outside the allowed scope. The buttons and arrows in and around the input field in the shopping bag are restricted as in the product detail page. Adding the update link to a button in the form gives it that last check but the delete link doesn't work correctly inside the form. 
+
+- Issue select buttons on the box length pages.
+
+I wanted to limit the number of box subscription a customer can buy. I have removed the quantity input on the box lenght page and the bag but it is possible for a customer to click on the add to bag button more than once. I have tried to make it less noticable to redirect them to the home page after clicking on the add to bag button.
+
+- Issue sort in shop
+
+I limit the queryset like with the boxes but it turned out that it could not sort when the queryset was sliced, it gave an 500 error. So I addde the an if statement that would not show the products with the name Original and Premium. But I found out that with sorting on country and by name it leaves two open spaces on large screens, I am not sure why.
