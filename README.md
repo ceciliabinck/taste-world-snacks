@@ -180,24 +180,25 @@ For research, images and inspiration I have used:
 +   <a href="https://www.universalyums.com/">UniversalYums</a>
 +   <a href="https://trymysnacks.com/">Try My Snacks</a>
 +   <a href="https://munchpak.com/">Munchpak</a>
-+   <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">Worled of Snacks</a>
++   <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">World of Snacks</a>
 +   <a href="https://arts.gatech.edu/sites/default/files/styles/large/public/taste.jpg?itok=16T3uGCI">This is my main image</a>
 +   <a href="https://gotodesigno.com/shades-of-orange-color/">Where the search for main colour started</a>
 +   <a href="https://www.jumia.com.ng">Nigerian grocery Jumia</a>
 
 For overall purpos:
-+   <a href="https://docs.djangoproject.com/en/3.1/">I have used Django for my framework</a>
-+   <a href="https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?child=first">I have used the Boutique Ado project as a big guideline</a>
-+   <a href="https://getbootstrap.com/">I have used Bootstrap for my grid structure</a>
-+   <a href="https://stripe.com/en-gb-nl">I have used Stripe for my payment option.</a>
-+   <a href="https://fontawesome.com/icons?d=gallery&m=free">I have used Font awesome for my icons</a>
++   <a href="https://docs.djangoproject.com/en/3.1/">Django for my framework</a>
++   <a href="https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?child=first">The Boutique Ado project as a big guideline</a>
++   <a href="https://getbootstrap.com/">Bootstrap for my grid structure</a>
++   <a href="https://stripe.com/en-gb-nl">Stripe for my payment option.</a>
++   <a href="https://fontawesome.com/icons?d=gallery&m=free">Font awesome for my icons</a>
 +   <a href="https://www.colorhexa.com/ffa368">To find a suitable color next to my main color</a>
 +   <a href="https://css-tricks.com/snippets/css/css-triangle/">CSS tricks for my arrow on my index and droduct page</a>
 +   <a href="https://dbdiagram.io/d">DB diagram I used to make my database diagram.</a>
-+   <a href="https://balsamiq.com/">Balsamiq I have used to make my wireframes.</a>
-+   <a href="https://fonts.google.com/">Google font I have used for my choosen fonts</a>
-+   <a href="https://www.colorhexa.com/ffa368">Colorhexa I have used to find the complementary colour for my main colour.</a>
++   <a href="https://balsamiq.com/">Balsamiq to make my wireframes.</a>
++   <a href="https://fonts.google.com/">Google font for my choosen fonts</a>
++   <a href="https://www.colorhexa.com/ffa368">Colorhexa to find the complementary colour for my main colour.</a>
 +   <a href="https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example">Bootstrap accordion I used for my FAQ page</a>
++   <a href="https://www.wikipedia.org/">Wikipedia for my flag images</a>
 
 For research on errors and explantion on subjects I have used:
 +   <a href="https://www.w3schools.com/">w3schools</a>
@@ -210,16 +211,19 @@ For research on errors and explantion on subjects I have used:
 +   <a href="https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/">How to undo almost anything with git</a>
 +   <a href="https://docs.djangoproject.com/fr/2.2/topics/db/queries/#limiting-querysets">How to limited the products queries that I show on my box pages.</a>
 +   <a href="https://stackoverflow.com/questions/45724006/django-reverse-for-not-found-is-not-a-valid-view-function-or-pattern-na">Stackoverflow to help me understand I did not wrote my url right.</a>
-+   <a href="https://devcenter.heroku.com/articles/error-codes">Heroku Devcenter I have used to help me with my H81 and H14 error</a>
++   <a href="https://devcenter.heroku.com/articles/error-codes">Heroku Devcenter to help me with my H81 and H14 error</a>
 
 For my stripe elements JavaScript and CSS I have used:
 +   <a href="https://stripe.com/docs/payments/accept-a-payment">Core logic/payment flow JavaScript</a>
 +   <a href="https://stripe.com/docs/stripe-js">Core logic/payment flow CSS</a>
 
-For my webhook elements I have used:
-+   <a href="https://stripe.com/docs/webhooks/signatures">Core logic check signatures</a>
+For my webhook elements I have used: <a href="https://stripe.com/docs/webhooks/signatures">Core logic check signatures</a>
 
-<a href="https://randomkeygen.com/">To help me with my deployment I have used Random Keygen</a>
+For my contact app I have used: <a href="https://www.tracesense.co.uk/">TraceSence</a>
+
+For my deployment I have used:
++   <a href="https://randomkeygen.com/">Random Keygen to help me with my deployment </a>
++   <a href="https://aws.amazon.com/">AWS Amazon to store my static and media files</a>
 
 For testing I have used:
 +   <a href="https://app.grammarly.com/ddocs/941252496">Grammarly</a>
@@ -235,8 +239,6 @@ For examples for my README I have used:
 ## Solved Issues
 
 - Issue  header/Navbar
-
--   ![HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 ![Issue header/Navbar](https://github.com/ceciliabinck/taste-world-snacks/blob/master/media/images/bug-header-navbar.jpg)
 
@@ -267,3 +269,233 @@ I wanted to limit the number of box subscription a customer can buy. I have remo
 - Issue sort in shop
 
 I limit the queryset like with the boxes but it turned out that it could not sort when the queryset was sliced, it gave an 500 error. So I addde the an if statement that would not show the products with the name Original and Premium. But I found out that with sorting on country and by name it leaves two open spaces on large screens, I am not sure why.
+
+- Issue with floating footers
+
+In my last walk throught the project I have seen that some of the pages from the Allauth package have a floating footer.
+
+# Deployment
+
+## Setting up database and Heroku app
+
+- Go heroku.com, create an account or login. <i>I already have an account so I just had to login.</i> 
+- Click on new and then on new app. Give your app a name, it has to be unique. <i>I called my app tatse-world-snacks.</i> Then choose the region closets to you and lastly click on create app button.
+
+- Go to the resources tab, go to the add-ons and search for Heroku Postgres. Use the free plan and click on the submit order form button.
+
+- Go back to your code editor and install dj_database_url and psycopg2-binary , for the use of heroku Postgres.  <i>pip3 install dj_database_url and pip3 install psycopg2-binary.</i> After that freeze the requirements, <i>pip3 freeze > requirementstxt</i>.
+
+- Go to settings.py and import dj_database_url.  Go to the database settings section and  comment out the the default configuration and add a new database default with a call to dj_database_url.parse(). Go back to Heroku, go to the settings tab and reveal the config vars. Copy the database-url value and past this into the parentheses (). 
+<i>DATABASE = {
+	'default': dj_database_url.parse('here comes you database-url value')
+}</i>
+
+- Because your using Postgres, you have to run all the migrations again, you can see this when you run python3 manage.py show migrations as the boxes are no longer checked. If you used JSON files to upload your categories an products you have to load them again. If you add them manually then you have again after it your app is deployed to Heroku.
+
+- Create a new super user, <i>python3 manage.py createsuperuser,</i> and follow the steps. Your Heroku app and database are ready to go so remove the new database default and uncomment the original database default. You do this last step to make sure your database URL doesn't end up in version control and people can't use it for them selfs.
+
+-  Then add, commit and push to Github.
+
+## Deploying to Heroku
+
+- In settings.py go back to the database section. You're going to going to set your database default in a if statement, if 'DATABASE_URL' in os.environ:. So that when our app is running on Heroku we connect to Postgres otherwise we connect to your local database. The first part of this if statement is going to be the default database for when connected to Heroku and it will be similar to the default database code you just removed but with your Heroku URL secured
+
+        DATABASE = {
+	        'default': dj_database_url.parse(os.environ.get('DATABASE_URL))
+        }
+
+Put the original database default in an else statement
+
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
+- To be able to deploy to Heroku you need a couple other things:
+ 	- Install gunicor, <i>that will act as web server,</i> and freeze this in the requirments.txt
+
+	- Create a Procfile, it needs the capital P. To tell heroku to create a web dyno, <i>which will run 	unicorn and serve our django app</i>. You open a new file and add this to the file. web: gunicorn taste_world_snacks.wsgi:application
+
+- Login to Heroku in the console. To login you can use the command heroku login or heroku login -i and follow the steps. Then temporarily disable collective static by using the command heroku config: set DISABLE_COLLECTSTATIC=1 --app taste-world-snacks, <i>so that Heroku won't try to collect static files when we deploy</i>.
+
+- You need to add taste-world-snacks to allowed hosts in settings.py and add the local host as well, <i>so that you can still work on it. I tidied up secured later so I could test automatic deployment.</i> Then add, commit and push to Github.
+
+- To deploy to Heroku use the commands:
+	- heroku git:remove -a taste-world-snacks
+	- git push heroku master
+
+- To set up automatic deployment go to the deploy tab on Heroku and click on connect to Github. Search for the correct repository and then click connect, after that go to the Enable Automatic Deploys button and click it.
+
+- Then to add secure, look up a secret key generator and generate a secret key. Copy that and go to the settings tab in Heroku, reveal config vars to make a new key with the name SECRET_KEY and past in your generated secret key in the value field and add it. After that go settings.py to replays the SECRET_KEY value with a call to get it from the environment with an empty string as default, <i>SECRET_KEY = os.environ.get('SECRET_KEY', '').</i>
+
+- Set DEBUG to be true only if there is variable called development, <i>DEBUG = 'DEVELOPMENT' in os.environ.</i> Lastly add, commit and push to Github. If you go to the activity tab on Heroku, you can see there is a build in progress and that your automatic deployment is working.
+
+## Store static files and images on AWS
+
+### Setup bucket
+
+- Go to aws.amazon.com there create an account and follow the steps or login. <i>I already have an account from a previous project so I only had to log in.</i>
+
+- Once logged in search for S3 and open it and create a new bucket and give it a name. to keep it simple I gave it my Heroku app name, taste-world-snacks. Then select the region that is close to you, uncheck block all public access and acknowledge that the bucket will be public. <i><u>It needs to be public in order to allow public access to our static files.</i></u> Then click create bucket
+
+- The new bucket needs a few basic settings. 
+	- To do that select your bucket, go to properties tab, look for static website hosting and click 	edit and click on enable and host a static website. <i>I used index.html and error.html as index 	and error documents. As this is for educational use so I can go with defaults.</i> 
+
+	- Then go to the permission tab, from there the cors configuration tab and click edit. <i>I pasted 	in the Cors configuration provided by school.</i> <u><i>This is to setup the required access between our Heroku app and this S3 bucket. </i></u>
+
+	- Then under the policy tab in the permission tab select policy generator to create a security 	policy for the bucket. The policy type is S3 bucket policy, effects will be allow, principal will 	be *,  action will be get object and the ARN you can find on top of the bucket policy tab. Click 	add statement, then generate policy. Copy this policy in to the bucket policy editor and add a 	/*  on to the end of the resource key to allow all access to all resources in the bucket and 	finally click save. Leave the policy generate window open for when you will create a user.
+
+	- As last step go to the access control list tab and select public access to everyone, select list 	and understand the effects and save.
+
+### Setup user to access bucket
+
+- Go back to the server menu and open I am. Click on groups, create a new group and give it a name. <i>To keep it simple I gave it the name manage-taste-world-snacks.</i> Then click on create group.
+
+- To make a policy to use to access our bucket click on policies and then create policy. Go to the JSON tab , click on import managed policy, search for S3, choose AmazonS3FullAccess and import. As I only want full access to the bucket and everything in it, you will go to the policy generate page that you left open and copy the ARN behind resource. You can past this in the list behind resource and in a second line past it in again but with /* behind it. Click review policy, give it a name and description and click create policy. <i>I name mine taste-world-snacks and as description I added to access S3 bucket for taste world snacks static files.</i>
+
+- You will attach the policy to the group you just created. To do so go to groups, click on the group that was just made, click attach policy, search for the policy with the name that you just made, select it and click attach policy.
+
+- Then finally you will create a user to put in the group. Click on users page, click add user and give it a name. <i>I called it taste-world-snacks-staticfiles-user.</i> select programmatic access as access type, click next, select your group, click through till the end and then click create user. Download the CSV file with the user access key and secret key and click close. <u><i>It is very important to download and save this file as it cannot be downloaded or accessed again.</i></u>
+
+## Connect S3 bucket to django
+
+- In the code editor install bato 3, django-storages and freeze them. Add storages  in settings.py under installed apps. 
+	<i>-pip3 install bato 3, pip3 install django-storages, pip3 freeze > requirements.txt</i>
+
+- You need to add the next settings under the media root section of settings.py to tell it with which bucket to communicate with. Add an if statement to check if there is an environment variable called use aws and give it these variables with the corresponding values:
+
+        if 'USE_AWS' in os.environ:
+	        AWS_STORAGE_BUCKET_NAME,
+	        AWS_S3_REGION_NAME,
+   	        AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID'),
+            AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY'),
+	        AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+- Then go to Heroku settings tap and reveal config vars to add:
+	- AWS_ACCESS_KEY_ID
+	- AWS_SECRET_ACCESS_KEY
+	- USE_AWS with value True
+- You can find the credentials in the CSV file you downloaded from AWS and remove the DISABLE COLLECTSTATIC variable.
+
+- In your code editor create a file named custom_storages.py to tell django where to store static files and uploaded product images when you run collect static files. In this file you import settings from django.config and import S3Boto3Storage from storages.backends.s3boto3. Add a class to tell django where to store static files and another for where to store media files.
+
+	    from django.conf import settings
+	    from storages.backends.s3boto3 import S3Boto3Storage
+
+
+	    class StaticStorage(S3Boto3Storage):
+   		    location = settings.STATICFILES_LOCATION
+
+
+	    class MediaStorage(S3Boto3Storage):
+    		    location = settings.MEDIAFILES_LOCATION
+
+- Then go back to settings.py to tell it that for static file storage you want to use the StaticStorage class, for media files you want MediaStorage and what location it should save them.
+
+        STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+   	    STATICFILES_LOCATION = 'static'
+        DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+        MEDIAFILES_LOCATION = 'media'
+
+ 
+- You also need to override and explicitly set the URLS for static and media files using your custom domain and new locations.
+
+	    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+        MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+## Adding other files to S3 bucket
+
+- You can add an extra setting to the use aws if statement in settings.py, that will tell the browser that it is okay to cache static files for a long time.
+
+	    AWS_S3_OBJECT_PARAMETERS = {
+       		 'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+       		 'CacheControl': 'max-age=94608000',
+    	}
+
+- To add media files to your S3 bucket, you need to go back to awsamazon.com, open S3, open your bucket ,   click on create folder and give it a name. I called mine media. Open this folder, click upload then click on add files, then select all the images you want to select and click upload.
+<i>If you have your images on Github than download them first from there and make sure that you add your images in with the same path as in your local database, example images/image.pjg.</i>
+
+# Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+# Making a local clone
+
+1. Navigate to https://github.com/ceciliabinck/(taste-world-snacks).
+2. Click the green 'Clone or Download' button.
+3. Copy the URL in the dropdown box.
+4. Using your favourite IDE open up your preferred terminal.
+5. Navigate to your desired file location.
+6. Copy the following code and input it into your terminal to clone Cook with me.
+7. git clone https://github.com/ceciliabinck/(taste-world-snacks).git
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+# Credits
+
+## Code
+
+- Most of the code I taken from my Boutique Ado project from the full stack frameworks with Django from the code institute.
+
+- The code for the accourdion on the FAQ page is from <a href="https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example">Bootstrap</a>
+
+- The checkout JS logic is from <a href="https://stripe.com/docs/payments/accept-a-payment">Stripe docs payment</a> and the CSS logic is from <a href="https://stripe.com/docs/stripe-js">Stripe docs payment</a>
+
+- For my contact app I have used <a href="https://www.tracesense.co.uk/">TraceSence</a>
+
+- The code in of the account app is from Allauth
+
+- I have also used code suggested by the tutors in my project
+
+## Content
+
+- The content of my FAQ page is from <a href="https://snacksurprise.com/">SnackSurprice</a>'s FAQ page
+
+- From the section what is inside a box, the first paragraph is from <a href="https://snacksurprise.com/">SnackSurprice</a>, the second paragraph is from <a href="https://www.universalyums.com/">UniversalYums</a> and the third paragraphis from <a href="https://trymysnacks.com/">Try My Snacks</a>.
+
+- The section forking from GitHub repository and the end of cloning locally after step 7 I used it from <a href="https://github.com/Code-Institute-Solutions/SampleREADME">A example from school it is made by lechien73</a>
+
+- The content of the account app is from Allauth
+
+- The rest of the contant I wrote my self
+
+## media
+
+- The hero image on the home page I used that from <a href="https://arts.gatech.edu/sites/default/files/styles/large/public/taste.jpg?itok=16T3uGCI">here</a>.
+
+- The other images on the home page and of the boxes I ised them from <a href="https://snacksurprise.com/">SnackSurprice</a>
+
+- Most of the images in the shop I used them from <a href="https://www.worldofsnacks.com/store/c1/Featured_Products.html">World of Snacks</a>
+
+- The 3 images from the products fron Nigeria I used then from <a href="https://www.jumia.com.ng">Nigerian grocery Jumia</a>
+
+- The differet country images I have used from <a href="https://www.wikipedia.org/">Wikipedia</a>
+
+## Acknowledgements
+
+- I want to thank tutor support at codeinstitute for helping me with issues, being my rubber duck and answering my questions even in times when it was busy
+
+- I like to thankt my mentor Maranantha Ilesanmi for keeping in contact with me and answering me when I just needed some support or someone to talk to
+
+- I want to thank my fellow students on Slack for keeping me motivated and learning me new things
