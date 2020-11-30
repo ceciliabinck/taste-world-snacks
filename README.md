@@ -234,6 +234,39 @@ For examples for my README I have used:
 +   <a href="https://github.com/ceciliabinck/cook-with-me">My last README.md</a>
 +   <a href="https://guides.github.com/features/mastering-markdown/">Github Guides on mastering markdown.</a>
 
+# Testing
+
+## Testing by others
+
+I have asked people on Slack and family to test my project and tell me the issues the have with it.
+
+- Test user 1
+    - **Issue 1**: In the how it works section I forgot to take out the part where it tell that you can choose your own country
+     **Solution**: I removed this content from the how it works section
+    - **Issue 2**: On the country page what did those countries mean/ where is the intro to these counties?
+     **Solution**: I wrote an intro for the country page, explaining what the meaning is of those counties
+
+- Test user 2
+    - **Issue 1**: In the section what do customers think there are no dates with te reviews. So how do custormers know from when they are?
+     **Solution**: I added a paragraph with in there a date for the review
+
+- Test user 3
+    - **Issue 1**: The sorting navbar on the shop page gives an error 500
+     **Solution**: I had sliced the queryset to display only the first 15 products. Turned out that it can not sort when the queryset is sliced. So I added an if statement in the code after the for loop, that it should not show any products with the name Original or Premium.
+    - **Issue 2**: I had made some typos on the 2 box length pages
+     **Solution**: I corrected the typos
+
+- Test user 4 
+    - **Issue 1**: When I click on "get a box", I get a 500 error
+     **Solution**: Turned out that there something went wrong with the boxes table in Postgres after I migrated to Heroku. So I had to remove my Postgres database and I had to migrate push to heroku again. After that was done I had to manualy insert all the data.
+
+## Other testing
+
+### Browser testing
+
+On Chrome as well as on Microsoft Edge the project work well. I can add products from the shop and the box in the bag, go to the shopping bag, do a payment and all the links work correctly.
+
+
 # Issues
 
 ## Solved Issues
